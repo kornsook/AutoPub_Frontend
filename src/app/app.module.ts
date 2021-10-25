@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,8 @@ import { AdminPublicationComponent } from './admin-publication/admin-publication
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminUserComponent } from './admin-user/admin-user.component';
 import { AdminBlacklistComponent } from './admin-blacklist/admin-blacklist.component';
+import { UserPublicationComponent } from './user-publication/user-publication.component';
+import { UserBlacklistComponent } from './user-blacklist/user-blacklist.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +33,14 @@ import { AdminBlacklistComponent } from './admin-blacklist/admin-blacklist.compo
     AdminPublicationComponent,
     AdminDashboardComponent,
     AdminUserComponent,
-    AdminBlacklistComponent
+    AdminBlacklistComponent,
+    UserPublicationComponent,
+    UserBlacklistComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

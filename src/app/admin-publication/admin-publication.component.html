@@ -88,8 +88,14 @@
                         <th>Title</th>
                         <th>Authors</th>
                         <th>DOI</th>
-                        <th>Journal</th>
-                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Venue</th>
+                        <th>Cite</th>
+                        <th>Year</th>
+                        <th>Publisher</th>
+                        <th>Pages</th>
+                        <th>Vol.</th>
+                        <th>No.</th>
                         <th>Users</th>
                         <th></th>
                       </tr>
@@ -99,71 +105,56 @@
                         <th>Title</th>
                         <th>Authors</th>
                         <th>DOI</th>
-                        <th>Journal</th>
-                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Venue</th>
+                        <th>Cite</th>
+                        <th>Year</th>
+                        <th>Publisher</th>
+                        <th>Pages</th>
+                        <th>Vol.</th>
+                        <th>No.</th>
                         <th>Users</th>
                         <th></th>
                       </tr>
                     </tfoot>
                     <tbody>
                       <tr>
-                        <td><input type="text" name='search_title' /></td>
-                        <td><input type="text" name='search_author' /></td>
-                        <td><input type="text" name='search_doi' /></td>
-                        <td><input type="text" name='search_journal' /></td>
-                        <td><input type="text" name='search_date' /></td>
+                        <td><input type="text" name='search_title' [value] = 'search_title' (keyup)="changeSearch('title',searchtitle.value)" #searchtitle/></td>
+                        <td><input type="text" name='search_authors' [value] = 'search_authors' (keyup)="changeSearch('authors',searchauthors.value)" #searchauthors/></td>
+                        <td><input type="text" name='search_doi' [value] = 'search_doi' (keyup)="changeSearch('doi',searchdoi.value)" #searchdoi/></td>
+                        <td><input type="text" name='search_description' [value] = 'search_description' (keyup)="changeSearch('description',searchdescription.value)" #searchdescription/></td>
+                        <td><input type="text" name='search_venue' [value] = 'search_venue' (keyup)="changeSearch('venue',searchvenue.value)" #searchvenue/></td>
+                        <td><input type="text" name='search_citation' [value] = 'search_citation' (keyup)="changeSearch('citation',searchcitation.value)" #searchcitation/></td>
+                        <td><input type="text" name='search_year' [value] = 'search_year' (keyup)="changeSearch('year',searchyear.value)" #searchyear/></td>
+                        <td><input type="text" name='search_publisher' [value] = 'search_publisher' (keyup)="changeSearch('publisher',searchpublisher.value)" #searchpublisher/></td>
+                        <td><input type="text" name='search_pages' [value] = 'search_pages' (keyup)="changeSearch('pages',searchpages.value)" #searchpages/></td>
+                        <td><input type="text" name='search_volumn' [value] = 'search_volumn' (keyup)="changeSearch('volumn',searchvolumn.value)" #searchvolumn/></td>
+                        <td><input type="text" name='search_number' [value] = 'search_number' (keyup)="changeSearch('number',searchnumber.value)" #searchnumber/></td>                        
                         <td>
-                        	<input type="text" name='search_user' />
+                        	<input type="text" name='search_users' [value] = 'search_users' (keyup)="changeSearch('users',searchusers.value)" #searchusers/>
                         </td>
                         <td></td>
                       </tr>
 
-                      <tr>
-                        <td>A low-complexity geometric bilateration method for localization in wireless sensor networks and its comparison with least-squares methods</td>
-                        <td>Juan Cota-Ruiz, Jose-Gerardo Rosiles, Ernesto Sifuentes, Pablo Rivas-Perea</td>
-                        <td>10.3390/s120100839</td>
-                        <td>Sensors</td>
-                        <td>2012/1</td>
-                        <td>
-                        	<div>pablo_rivas<a href='bla'><i class="fas fa-ban"></i></a></div>
-                        	<div>ernesto_sifuentes<a href='bla'><i class="fas fa-ban"></i></a></div>
-                        </td>
-                        <td><a href='temp'><i class="fas fa-times"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>A Review of Machine Learning and Cryptography Applications</td>
-                        <td>Korn Sooksatra, Pablo Rivas</td>
-                        <td>10.1109/CSCI51800.2020.00105</td>
-                        <td>2020 International Conference on Computational Science and Computational Intelligence (CSCI)</td>
-                        <td>2020/12</td>
-                        <td>
-                        	<div>korn_sooksatra<a href='bla'><i class="fas fa-ban"></i></a></div>
-                        	<div>pablo_rivas<a href='bla'><i class="fas fa-ban"></i></a></div>
-                        </td>
-                        <td><a href='temp'><i class="fas fa-times"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>A Review of Convolutional Neural Networks and Gabor Filters in Object Recognition</td>
-                        <td>Mehang Rai, Pablo Rivas</td>
-                        <td>10.1109/CSCI51800.2020.00289</td>
-                        <td>2020 International Conference on Computational Science and Computational Intelligence (CSCI)</td>
-                        <td>2020/12</td>
-                        <td>
-                        	<div>pablo_rivas<a href='bla'><i class="fas fa-ban"></i></a></div>
-                        </td>
-                        <td><a href='temp'><i class="fas fa-times"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td><input type="text" name='search_title' /></td>
-                        <td><input type="text" name='search_author' /></td>
-                        <td><input type="text" name='search_doi' /></td>
-                        <td><input type="text" name='search_journal' /></td>
-                        <td><input type="text" name='search_date' /></td>
-                        <td>
-                        	<input type="text" name='search_user' />
-                        </td>
-                        <td><a href='temp'><i class="fas fa-plus"></i></a></td>
-                      </tr>
+                      <tr *ngFor="let publication of active_publications; let i = index">
+                          <td> {{ publication.title }} </td>
+                          <td> {{ publication.authors }} </td>
+                          <td> {{ publication.doi }} </td>
+                          <td> {{ publication.description }} </td>
+                          <td> {{ publication.venue }} </td>
+                          <td> {{ publication.citation }} </td>
+                          <td> {{ publication.year }} </td>
+                          <td> {{ publication.publisher }} </td>
+                          <td> {{ publication.pages }} </td>
+                          <td> {{ publication.volumn }} </td>
+                          <td> {{ publication.number }} </td>
+                         <td> 
+                            <div *ngFor = "let user of publication.users; let j = index">
+                              {{ user }} <i class="fas fa-ban" (click) = "block(publication.id, j)" style="cursor: pointer;"></i>
+                            </div>
+                          </td>
+                          <td><i class="fas fa-times" (click) = "remove(i)" style="cursor: pointer;"></i></td>
+                      </tr>                      
                     </tbody>
                   </table>
                 </div>

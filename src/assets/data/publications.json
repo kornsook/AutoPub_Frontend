@@ -1,0 +1,26 @@
+[
+    {
+      "title": "A low-complexity geometric bilateration method for localization in wireless sensor networks and its comparison with least-squares methods",
+      "authors": "Juan Cota-Ruiz, Jose-Gerardo Rosiles, Ernesto Sifuentes, Pablo Rivas-Perea",
+      "doi": "10.3390/s120100839",
+      "journal": "Sensors",
+      "date": "2012/1",
+      "users": ["pablo_rivas", "ernesto_sifuentes"]                
+    },
+    {
+      "title": "A Review of Machine Learning and Cryptography Applications",
+      "authors": "Korn Sooksatra, Pablo Rivas",
+      "doi": "10.1109/CSCI51800.2020.00105",
+      "journal": "2020 International Conference on Computational Science and Computational Intelligence (CSCI)",
+      "date": "2020/12",
+      "users": ["korn_sooksatra","pablo_rivas"]                
+    },
+    {
+      "title": "An Adversarial Neural Cryptography Approach to Integrity Checking: Learning to Secure Data Communications",
+      "authors": "Korn Sooksatra, Pablo Rivas",
+      "doi": "10.1109/IJCNN52387.2021.9534000",
+      "journal": "2021 International Joint Conference on Neural Networks (IJCNN)",
+      "date": "2021/7",
+      "users": ["korn_sooksatra","pablo_rivas"]                
+    }
+  ]

@@ -1,0 +1,38 @@
+[
+{
+"id": 11,
+"title": "Multi-source Log Clustering in Distributed Systems",
+"doi": "10.1007/978-981-33-6385-4_4",
+"description": "null",
+"venue": "",
+"listofauthors": "John E. Raffety, Brooklynn Stone, J. Svacina, Connor Woodahl, T. Cerný, Pavel Tisnovsky",
+"citations": 0,
+"year": 2021,
+"publisher": "Springer Singapore",
+"pages": "31-41",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2021,\n\tdoi = {10.1007/978-981-33-6385-4_4},\n\turl = {https://doi.org/10.1007%2F978-981-33-6385-4_4},\n\tyear = 2021,\n\tpublisher = {Springer Singapore},\n\tpages = {31--41},\n\tauthor = {Jackson Raffety and Brooklynn Stone and Jan Svacina and Connor Woodahl and Tomas Cerny and Pavel Tisnovsky},\n\ttitle = {Multi-source Log Clustering in Distributed Systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 12,
+"title": "On Log Analysis and Stack Trace Use to Improve Program Slicing",
+"doi": "10.1007/978-981-33-6385-4_25",
+"description": "null",
+"venue": "",
+"listofauthors": "Vincent Bushong, Jacob Curtis, Russell Sanders, Mark Du, T. Cerný, Karel Frajták, Pavel Tisnovsky, Dongwan Shin",
+"citations": 0,
+"year": 2021,
+"publisher": "Springer Singapore",
+"pages": "265-275",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2021,\n\tdoi = {10.1007/978-981-33-6385-4_25},\n\turl = {https://doi.org/10.1007%2F978-981-33-6385-4_25},\n\tyear = 2021,\n\tpublisher = {Springer Singapore},\n\tpages = {265--275},\n\tauthor = {Vincent Bushong and Jacob Curtis and Russell Sanders and Mark Du and Tomas Cerny and Karel Frajtak and Pavel Tisnovsky and Dongwan Shin},\n\ttitle = {On Log Analysis and Stack Trace Use to Improve Program Slicing}\n}",
+"authorsSemantic": [
+1
+]
+}
+]

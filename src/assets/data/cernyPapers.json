@@ -1,0 +1,1871 @@
+[
+{
+"id": 13,
+"title": "Online Energy Scheduling Policies in Energy Harvesting Enabled D2D Communications",
+"doi": "10.1109/TII.2020.3005440",
+"description": "Energy efficiency plays a vital role in device-to-device communications, which has been recognized as a key challenge. In this article, we study the implications of the peak power constraints and processing cost on the energy scheduling policy, and find that the peak power should be used around the time slots of each energy arrival, and the only time slot in which the intermittent communication may occur is the last time slot. A new optimal energy scheduling algorithm is devised based on these observations. Also, we propose a near-optimal energy scheduling algorithm that simultaneously takes into account the peak power constraints and the processing cost. Our simulation results demonstrate the effectiveness of the proposed energy scheduling algorithm and the validity of the mathematical analyses.",
+"venue": "IEEE Transactions on Industrial Informatics",
+"listofauthors": "Jun Huang, Baohua Yu, Cong-Cong Xing, T. Cerný, Zhaolong Ning",
+"citations": 1,
+"year": 2021,
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"pages": "5678-5687",
+"volume": "17",
+"number": "8",
+"bibtex": "@article{2021,\n\tdoi = {10.1109/tii.2020.3005440},\n\turl = {https://doi.org/10.1109%2Ftii.2020.3005440},\n\tyear = 2021,\n\tmonth = {aug},\n\tpublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\n\tvolume = {17},\n\tnumber = {8},\n\tpages = {5678--5687},\n\tauthor = {Jun Huang and Baohua Yu and Cong-Cong Xing and Tomas Cerny and Zhaolong Ning},\n\ttitle = {Online Energy Scheduling Policies in Energy Harvesting Enabled D2D Communications}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 14,
+"title": "Database-Conscious End-to-End Testing for Reactive Systems using Containerization",
+"doi": "10.5220/0010494403770383",
+"description": "null",
+"venue": "ICEIS",
+"listofauthors": "Denton Wood, T. Cerný",
+"citations": 0,
+"year": 2021,
+"publisher": "SCITEPRESS - Science and Technology Publications",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2021,\n\tdoi = {10.5220/0010494403770383},\n\turl = {https://doi.org/10.5220%2F0010494403770383},\n\tyear = 2021,\n\tpublisher = {{SCITEPRESS} - Science and Technology Publications},\n\tauthor = {Denton Wood and Tom{\\'{a}}{\\v{s}} {\\v{C}}ern{\\'{y}}},\n\ttitle = {Database-Conscious End-to-End Testing for Reactive Systems using Containerization}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 15,
+"title": "On Automatic Software Architecture Reconstruction of Microservice Applications",
+"doi": "10.1007/978-981-33-6385-4_21",
+"description": "null",
+"venue": "",
+"listofauthors": "Andrew Walker, Ian Laird, T. Cerný",
+"citations": 0,
+"year": 2021,
+"publisher": "Springer Singapore",
+"pages": "223-234",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2021,\n\tdoi = {10.1007/978-981-33-6385-4_21},\n\turl = {https://doi.org/10.1007%2F978-981-33-6385-4_21},\n\tyear = 2021,\n\tpublisher = {Springer Singapore},\n\tpages = {223--234},\n\tauthor = {Andrew Walker and Ian Laird and Tomas Cerny},\n\ttitle = {On Automatic Software Architecture Reconstruction of Microservice Applications}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 16,
+"title": "Automated Microservice Code-Smell Detection",
+"doi": "10.1007/978-981-33-6385-4_20",
+"description": "null",
+"venue": "",
+"listofauthors": "Andrew Walker, Dipta Das, T. Cerný",
+"citations": 0,
+"year": 2021,
+"publisher": "Springer Singapore",
+"pages": "211-221",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2021,\n\tdoi = {10.1007/978-981-33-6385-4_20},\n\turl = {https://doi.org/10.1007%2F978-981-33-6385-4_20},\n\tyear = 2021,\n\tpublisher = {Springer Singapore},\n\tpages = {211--221},\n\tauthor = {Andrew Walker and Dipta Das and Tomas Cerny},\n\ttitle = {Automated Microservice Code-Smell Detection}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 17,
+"title": "Pyclone: A Python Code Clone Test Bank Generator",
+"doi": "10.1007/978-981-33-6385-4_22",
+"description": "null",
+"venue": "",
+"listofauthors": "Schaeffer Duncan, Andrew Walker, Caleb DeHaan, Stephanie Alvord, T. Cerný, Pavel Tisnovsky",
+"citations": 0,
+"year": 2021,
+"publisher": "Springer Singapore",
+"pages": "235-243",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2021,\n\tdoi = {10.1007/978-981-33-6385-4_22},\n\turl = {https://doi.org/10.1007%2F978-981-33-6385-4_22},\n\tyear = 2021,\n\tpublisher = {Springer Singapore},\n\tpages = {235--243},\n\tauthor = {Schaeffer Duncan and Andrew Walker and Caleb DeHaan and Stephanie Alvord and Tomas Cerny and Pavel Tisnovsky},\n\ttitle = {Pyclone: A Python Code Clone Test Bank Generator}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 18,
+"title": "A Comprehensive Enterprise System Metamodel for Quality Assurance",
+"doi": "10.1007/978-981-33-6385-4_23",
+"description": "null",
+"venue": "",
+"listofauthors": "J. Svacina, Vincent Bushong, Dipta Das, T. Cerný",
+"citations": 0,
+"year": 2021,
+"publisher": "Springer Singapore",
+"pages": "245-252",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2021,\n\tdoi = {10.1007/978-981-33-6385-4_23},\n\turl = {https://doi.org/10.1007%2F978-981-33-6385-4_23},\n\tyear = 2021,\n\tpublisher = {Springer Singapore},\n\tpages = {245--252},\n\tauthor = {Jan Svacina and Vincent Bushong and Dipta Das and Tomas Cerny},\n\ttitle = {A Comprehensive Enterprise System Metamodel for Quality Assurance}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 19,
+"title": "Session details: Theme: Software design and development: QASM - Quality assurance and software mining track",
+"doi": "10.1145/3462428",
+"description": "null",
+"venue": "",
+"listofauthors": "T. Cerný, Miroslav Bures, Richard Lipka, B. Rossi",
+"citations": 0,
+"year": 2021,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2021,\n\tdoi = {10.1145/3462428},\n\turl = {https://doi.org/10.1145%2F3462428},\n\tyear = 2021,\n\tmonth = {mar},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny and Miroslav Bures and Richard Lipka and Bruno Rossi},\n\ttitle = {Session details: Theme: Software design and development: {QASM} - Quality assurance and software mining track}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 20,
+"title": "Automated error log resolution: a case study",
+"doi": "10.1145/3412841.3442004",
+"description": "Debugging and error resolution has become increasingly time-consuming and difficult for all domains of software development. Error logs have become very important when it comes to debugging and error resolution. To remedy the problems presented in the logs, typically, a search on online forums would shed light on the solution. We present a novel approach to utilizing these logs in conjunction with external Question and Answer forums to compute and expedite resolution by suggesting a solution to runtime errors. Since log format is non-standard and use cases can vary widely, our architecture allows for extreme customization for the intended ecosystem as well as a great degree of fine-tuning. We evaluated our solution in a case study and made our implementation open-source for the community.",
+"venue": "SAC",
+"listofauthors": "Mark Fuller, Elizabeth Brighton, Micah Schiewe, Dipta Das, T. Cerný, Pavel Tisnovsky",
+"citations": 0,
+"year": 2021,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2021,\n\tdoi = {10.1145/3412841.3442004},\n\turl = {https://doi.org/10.1145%2F3412841.3442004},\n\tyear = 2021,\n\tmonth = {mar},\n\tpublisher = {{ACM}},\n\tauthor = {Mark Fuller and Elizabeth Brighton and Micah Schiewe and Dipta Das and Tomas Cerny and Pavel Tisnovsky},\n\ttitle = {Automated error log resolution}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 21,
+"title": "On automated RBAC assessment by constructing a centralized perspective for microservice mesh",
+"doi": "10.7717/peerj-cs.376",
+"description": "It is important in software development to enforce proper restrictions on protected services and resources. Typically software services can be accessed through REST API endpoints where restrictions can be applied using the Role-Based Access Control (RBAC) model. However, RBAC policies can be inconsistent across services, and they require proper assessment. Currently, developers use penetration testing, which is a costly and cumbersome process for a large number of APIs. In addition, modern applications are split into individual microservices and lack a unified view in order to carry out automated RBAC assessment. Often, the process of constructing a centralized perspective of an application is done using Systematic Architecture Reconstruction (SAR). This article presents a novel approach to automated SAR to construct a centralized perspective for a microservice mesh based on their REST communication pattern. We utilize the generated views from SAR to propose an automated way to find RBAC inconsistencies.",
+"venue": "PeerJ Comput. Sci.",
+"listofauthors": "Dipta Das, Andrew Walker, Vincent Bushong, J. Svacina, T. Cerný, V. Matyas",
+"citations": 0,
+"year": 2021,
+"publisher": "PeerJ",
+"pages": "e376",
+"volume": "7",
+"number": null,
+"bibtex": "@article{2021,\n\tdoi = {10.7717/peerj-cs.376},\n\turl = {https://doi.org/10.7717%2Fpeerj-cs.376},\n\tyear = 2021,\n\tmonth = {feb},\n\tpublisher = {{PeerJ}},\n\tvolume = {7},\n\tpages = {e376},\n\tauthor = {Dipta Das and Andrew Walker and Vincent Bushong and Jan Svacina and Tomas Cerny and Vashek Matyas},\n\ttitle = {On automated {RBAC} assessment by constructing a centralized perspective for microservice mesh}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 22,
+"title": "Differential privacy applied to smart meters: a mapping study",
+"doi": "10.1145/3412841.3442360",
+"description": "Smart meters and the smart grid will allow utility companies and customers to monitor their electricity and utility usage in fine-grained detail instead of the previously common monthly or yearly measurements. With this fine-grained detail comes serious privacy concerns. One of the most promising solutions for measuring and preserving privacy loss is differential privacy. Both differential privacy and the smart grid are relatively young developments that will require more research before they can be confidently implemented worldwide. With this systematic mapping study, we will provide an overview of the current literature and attempt to determine the future directions the research may take.",
+"venue": "SAC",
+"listofauthors": "Jacob Marks, Brandon Montano, Jiwan Chong, Manjusha Raavi, Raisa Islam, T. Cerný, Dongwan Shin",
+"citations": 0,
+"year": 2021,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2021,\n\tdoi = {10.1145/3412841.3442360},\n\turl = {https://doi.org/10.1145%2F3412841.3442360},\n\tyear = 2021,\n\tmonth = {mar},\n\tpublisher = {{ACM}},\n\tauthor = {Jacob Marks and Brandon Montano and Jiwan Chong and Manjusha Raavi and Raisa Islam and Tomas Cerny and Dongwan Shin},\n\ttitle = {Differential privacy applied to smart meters}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 23,
+"title": "Behavior control-based approach to influencing user's cybersecurity actions using mobile news app",
+"doi": "10.1145/3412841.3442103",
+"description": "In this paper, we propose that the theory of planned behavior (TPB) with the additional factors of awareness and context-based information can be used to positively influence users' cybersecurity behavior. A research model based on TPB is developed and validated using a user study. As a proof-of-concept, we developed a mobile cybersecurity news app that incorporates context-based information such as location, search history, and usage information of other mobile apps into its article recommendations and warning notifications to address user awareness better. Through a survey of 100 participants, the proposed research model was validated, and it was confirmed that context-based information positively influences users' awareness in cybersecurity.",
+"venue": "SAC",
+"listofauthors": "Vince Lombardi, Sarah Ortiz, Jen Phifer, T. Cerný, Dongwan Shin",
+"citations": 0,
+"year": 2021,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2021,\n\tdoi = {10.1145/3412841.3442103},\n\turl = {https://doi.org/10.1145%2F3412841.3442103},\n\tyear = 2021,\n\tmonth = {mar},\n\tpublisher = {{ACM}},\n\tauthor = {Vincent Lombardi and Sarah Ortiz and Jen Phifer and Tomas Cerny and Dongwan Shin},\n\ttitle = {Behavior control-based approach to influencing user{\\textquotesingle}s cybersecurity actions using mobile news app}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 24,
+"title": "Securing Internet of Things Devices Using The Network Context",
+"doi": "10.1109/TII.2019.2954100",
+"description": "Internet of Things (IoT) devices have been widely adopted in recent years. Unlike conventional information systems, IoT solutions have greater access to real-world contextual data and are typically deployed in an environment that cannot be fully controlled, and these circumstances create new challenges and opportunities. In this article, we leverage the knowledge that an IoT device has about its network context to provide an additional security factor. The device periodically scans a network and reports a list of all devices in the network. The server analyzes movements in the network and subsequently reacts to suspicious events. This article describes how our method can detect network changes, retrieved only from scanning devices in the network. To demonstrate the proposed solution, we perform a multiweek case study on a network with hundreds of active devices and confirm that our method can detect network anomalies or changes.",
+"venue": "IEEE Transactions on Industrial Informatics",
+"listofauthors": "Michal Trnka, J. Svacina, T. Cerný, Eunjee Song, Jiman Hong, Miroslav Bures",
+"citations": 2,
+"year": 2020,
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"pages": "4017-4027",
+"volume": "16",
+"number": "6",
+"bibtex": "@article{2020,\n\tdoi = {10.1109/tii.2019.2954100},\n\turl = {https://doi.org/10.1109%2Ftii.2019.2954100},\n\tyear = 2020,\n\tmonth = {jun},\n\tpublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\n\tvolume = {16},\n\tnumber = {6},\n\tpages = {4017--4027},\n\tauthor = {Michal Trnka and Jan Svacina and Tomas Cerny and Eunjee Song and Jiman Hong and Miroslav Bures},\n\ttitle = {Securing Internet of Things Devices Using The Network Context}\n}",
+"authorsSemantic": [
+9,
+1
+]
+},
+{
+"id": 25,
+"title": "On cloud computing infrastructure for existing code-clone detection algorithms",
+"doi": "10.1145/3392350.3392351",
+"description": "Microservice Architecture (MSA) is becoming a design standard for modern cloud-based software systems. However, even though cloud-based applications have been thoroughly explored with regards to ne...",
+"venue": "",
+"listofauthors": "Andrew Walker, T. Cerný",
+"citations": 4,
+"year": 2020,
+"publisher": "Association for Computing Machinery (ACM)",
+"pages": "5-14",
+"volume": "20",
+"number": "1",
+"bibtex": "@article{2020,\n\tdoi = {10.1145/3392350.3392351},\n\turl = {https://doi.org/10.1145%2F3392350.3392351},\n\tyear = 2020,\n\tmonth = {apr},\n\tpublisher = {Association for Computing Machinery ({ACM})},\n\tvolume = {20},\n\tnumber = {1},\n\tpages = {5--14},\n\tauthor = {Andrew Walker and Tomas Cerny},\n\ttitle = {On cloud computing infrastructure for existing code-clone detection algorithms}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 68,
+"title": "Aspect-Oriented User Interfaces Design Integration to Angular 2 Framework",
+"doi": "10.1109/ICITCS.2016.7740314",
+"description": "Conventional user interface design introduces multiple complexities for the development perspective. This is usually caused by the information restatements and mostly by mixing various concerns that result in tangling the user interface code. This paper address the above issue with aspect- oriented user interface design approach that can more effectively copy with separation of concerns and thus result with reduced complexity of development and maintenance. Next, we present a small case study of an approach prototype to demonstrate its capabilities.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "Filip Rysavy, T. Cerný, M. Tomásek",
+"citations": 0,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740314},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740314},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Filip Rysavy and Tomas Cerny and Martin Tomasek},\n\ttitle = {Aspect-Oriented User Interfaces Design Integration to Angular 2 Framework}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 26,
+"title": "On Vulnerability and Security Log analysis: A Systematic Literature Review on Recent Trends",
+"doi": "10.1145/3400286.3418261",
+"description": "Log analysis is a technique of deriving knowledge from log files containing records of events in a computer system. A common application of log analysis is to derive critical information about a system's security issues and intrusions, which subsequently leads to being able to identify and potentially stop intruders attacking the system. However, many systems produce a high volume of log data with high frequency, posing serious challenges in analysis. This paper contributes with a systematic literature review and discusses current trends, advancements, and future directions in log security analysis within the past decade. We summarized current research strategies with respect to technology approaches from 34 current publications. We identified limitations that poses challenges to future research and opened discussion on issues towards logging mechanism in the software systems. Findings of this study are relevant for software systems as well as software parts of the Internet of Things (IoT) systems.",
+"venue": "RACS",
+"listofauthors": "J. Svacina, John E. Raffety, Connor Woodahl, Brooklynn Stone, T. Cerný, Miroslav Bures, Dongwan Shin, Karel Frajták, Pavel Tisnovsky",
+"citations": 4,
+"year": 2020,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2020,\n\tdoi = {10.1145/3400286.3418261},\n\turl = {https://doi.org/10.1145%2F3400286.3418261},\n\tyear = 2020,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Jan Svacina and Jackson Raffety and Connor Woodahl and Brooklynn Stone and Tomas Cerny and Miroslav Bures and Dongwan Shin and Karel Frajtak and Pavel Tisnovsky},\n\ttitle = {On Vulnerability and Security Log analysis}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 27,
+"title": "Automated Code-Smell Detection in Microservices Through Static Analysis: A Case Study",
+"doi": "10.3390/app10217800",
+"description": "Microservice Architecture (MSA) is becoming the predominant direction of new cloud-based applications. There are many advantages to using microservices, but also downsides to using a more complex architecture than a typical monolithic enterprise application. Beyond the normal poor coding practices and code smells of a typical application, microservice-specific code smells are difficult to discover within a distributed application setup. There are many static code analysis tools for monolithic applications, but tools to offer code-smell detection for microservice-based applications are lacking. This paper proposes a new approach to detect code smells in distributed applications based on microservices. We develop an MSANose tool to detect up to eleven different microservice specific code smells and share it as open-source. We demonstrate our tool through a case study on two robust benchmark microservice applications and verify its accuracy. Our results show that it is possible to detect code smells within microservice applications using bytecode and/or source code analysis throughout the development process or even before its deployment to production.",
+"venue": "",
+"listofauthors": "Andrew Walker, Dipta Das, T. Cerný",
+"citations": 3,
+"year": 2020,
+"publisher": "MDPI AG",
+"pages": "7800",
+"volume": "10",
+"number": "21",
+"bibtex": "@article{2020,\n\tdoi = {10.3390/app10217800},\n\turl = {https://doi.org/10.3390%2Fapp10217800},\n\tyear = 2020,\n\tmonth = {nov},\n\tpublisher = {{MDPI} {AG}},\n\tvolume = {10},\n\tnumber = {21},\n\tpages = {7800},\n\tauthor = {Andrew Walker and Dipta Das and Tomas Cerny},\n\ttitle = {Automated Code-Smell Detection in Microservices Through Static Analysis: A Case Study}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 28,
+"title": "Mapping Study on Constraint Consistency Checking in Distributed Enterprise Systems",
+"doi": "10.1145/3400286.3418257",
+"description": "Constraint consistency errors in distributed systems can lead to fatal consequences when left unobserved and undetected. The primary goal of quality engineers should be to avoid system inconsistencies in general. However, it is typically a much more straight forward process in monolith-like systems with one codebase than in distributed solutions where heterogeneity occurs across modules. In this paper, we raise the research question of what is the existing state-of-the-art and research literature practice when it comes to consistency checking in distributed systems. We conducted a systematic search for existing work and assess the evidence to categorize the approaches and to identify used techniques. Identified works offer interesting directions and achievements. Often the works share tool prototypes and instruments to build on the top of when performing further research in this direction and we share them in this paper. Finally, we discuss open challenges and gaps in this field to promote the interest of the research audience.",
+"venue": "RACS",
+"listofauthors": "T. Cerný, Andrew Walker, J. Svacina, Vincent Bushong, Dipta Das, Karel Frajták, Miroslav Bures, Pavel Tisnovsky",
+"citations": 3,
+"year": 2020,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2020,\n\tdoi = {10.1145/3400286.3418257},\n\turl = {https://doi.org/10.1145%2F3400286.3418257},\n\tyear = 2020,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny and Andrew Walker and Jan Svacina and Vincent Bushong and Dipta Das and Karel Frajtak and Miroslav Bures and Pavel Tisnovsky},\n\ttitle = {Mapping Study on Constraint Consistency Checking in Distributed Enterprise Systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 29,
+"title": "Open-source tools and benchmarks for code-clone detection: past, present, and future trends",
+"doi": "10.1145/3381307.3381310",
+"description": "A fragment of source code that is identical or similar to another is a code-clone. Code-clones make it difficult to maintain applications as they create multiple points within the code that bugs must be fixed, new rules enforced, or design decisions imposed. As applications grow larger and larger, the pervasiveness of code-clones likewise grows. To face the code-clone related issues, many tools and algorithms have been proposed to find and document code-clones within an application. In this paper, we present the historical trends in code-clone detection tools to show how we arrived at the current implementations. We then present our results from a systematic mapping study on current (2009-2019) code-clone detection tools with regards to technique, open-source nature, and language coverage. Lastly, we propose future directions for code-clone detection tools. This paper provides the essentials to understanding the code-clone detection process and the current state-of-art solutions.",
+"venue": "SIAP",
+"listofauthors": "Andrew Walker, T. Cerný, Eungee Song",
+"citations": 9,
+"year": 2020,
+"publisher": "Association for Computing Machinery (ACM)",
+"pages": "28-39",
+"volume": "19",
+"number": "4",
+"bibtex": "@article{2020,\n\tdoi = {10.1145/3381307.3381310},\n\turl = {https://doi.org/10.1145%2F3381307.3381310},\n\tyear = 2020,\n\tmonth = {jan},\n\tpublisher = {Association for Computing Machinery ({ACM})},\n\tvolume = {19},\n\tnumber = {4},\n\tpages = {28--39},\n\tauthor = {Andrew Walker and Tomas Cerny and Eungee Song},\n\ttitle = {Open-source tools and benchmarks for code-clone detection}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 30,
+"title": "Session details: Theme: Software design and development: CASoM - Code analysis and software mining track",
+"doi": "10.1145/3389642",
+"description": "null",
+"venue": "",
+"listofauthors": "T. Cerný, Premek Brada, Miroslav Bures",
+"citations": 0,
+"year": 2020,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2020,\n\tdoi = {10.1145/3389642},\n\turl = {https://doi.org/10.1145%2F3389642},\n\tyear = 2020,\n\tmonth = {mar},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny and Premek Brada and Miroslav Bures},\n\ttitle = {Session details: Theme: Software design and development: {CASoM} - Code analysis and software mining track}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 31,
+"title": "Semantic code clone detection for enterprise applications",
+"doi": "10.1145/3341105.3374117",
+"description": "Enterprise systems are widely adopted across industries as methods of solving complex problems. As software complexity increases, the software's codebase becomes harder to manage and maintenance costs raise significantly. One such source of cost-raising complexity and code bloat is that of code clones. We proposed an approach to identify semantic code clones in enterprise frameworks by using control flow graphs (CFGs) and applying various proprietary similarity functions to compare enterprise targeted metadata for each pair of CFGs. This approach enables us to detect semantic code clones with high accuracy within a time complexity of O(n2) where n is equal to the number of CFGs composed in the enterprise application (usually around hundreds). We demonstrated our solution on a blind study utilizing a production enterprise application.",
+"venue": "SAC",
+"listofauthors": "J. Svacina, Jonathan Simmons, T. Cerný",
+"citations": 1,
+"year": 2020,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2020,\n\tdoi = {10.1145/3341105.3374117},\n\turl = {https://doi.org/10.1145%2F3341105.3374117},\n\tyear = 2020,\n\tmonth = {mar},\n\tpublisher = {{ACM}},\n\tauthor = {Jan Svacina and Jonathan Simmons and Tomas Cerny},\n\ttitle = {Semantic code clone detection for enterprise applications}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 32,
+"title": "On Matching Log Analysis to Source Code: A Systematic Mapping Study",
+"doi": "10.1145/3400286.3418262",
+"description": "Logging is a vital part of the software development process. Developers use program logging to monitor program execution and identify errors and anomalies. These errors may also cause uncaught exceptions and generate stack traces that help identify the point of error. Both of these sources contain information that can be matched to points in the source code, but manual log analysis is challenging for large systems that create large volumes of logs and have large codebases. In this paper, we contribute a systematic mapping study to determine the state-of-the-art tools and methods used to perform automatic log analysis and stack trace analysis and match the extracted information back to the program's source code. We analyzed 16 publications that address this issue, summarizing their strategies and goals, and we identified open research directions from this body of work.",
+"venue": "RACS",
+"listofauthors": "Vincent Bushong, Russell Sanders, Jacob Curtis, Mark Du, T. Cerný, Karel Frajták, Miroslav Bures, Pavel Tisnovsky, Dongwan Shin",
+"citations": 3,
+"year": 2020,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2020,\n\tdoi = {10.1145/3400286.3418262},\n\turl = {https://doi.org/10.1145%2F3400286.3418262},\n\tyear = 2020,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Vincent Bushong and Russell Sanders and Jacob Curtis and Mark Du and Tomas Cerny and Karel Frajtak and Miroslav Bures and Pavel Tisnovsky and Dongwan Shin},\n\ttitle = {On Matching Log Analysis to Source Code}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 33,
+"title": "On Code Analysis Opportunities and Challenges for Enterprise Systems and Microservices",
+"doi": "10.1109/ACCESS.2020.3019985",
+"description": "Code analysis brings excellent benefits to software development, maintenance, and quality assurance. Various tools can uncover code defects or even software bugs in a range of seconds. For many projects and developers, the code analysis tools became essential in their daily routines. However, how can code analysis help in an enterprise environment? Enterprise software solutions grow in scale and complexity. These solutions no longer involve only plain objects and basic language constructs but operate with various components and mechanisms simplifying the development of such systems. Enterprise software vendors have adopted various development and design standards; however, there is a gap between what constructs the enterprise frameworks use and what current code analysis tools recognize. This manuscript aims to challenge the mainstream research directions of code analysis and motivate for a transition towards code analysis of enterprise systems with interesting problems and opportunities. In particular, this manuscript addresses selected enterprise problems apparent for monolithic and distributed enterprise solutions. It also considers challenges related to the recent architectural push towards a microservice architecture. Along with open-source proof-of-concept prototypes to some of the challenges, this manuscript elaborates on code analysis directions and their categorization. Furthermore, it suggests one possible perspective of the problem area using aspect-oriented programming.",
+"venue": "IEEE Access",
+"listofauthors": "T. Cerný, J. Svacina, Dipta Das, Vincent Bushong, Miroslav Bures, Pavel Tisnovsky, Karel Frajták, Dongwan Shin, Jun Huang",
+"citations": 5,
+"year": 2020,
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"pages": "159449-159470",
+"volume": "8",
+"number": null,
+"bibtex": "@article{2020,\n\tdoi = {10.1109/access.2020.3019985},\n\turl = {https://doi.org/10.1109%2Faccess.2020.3019985},\n\tyear = 2020,\n\tpublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\n\tvolume = {8},\n\tpages = {159449--159470},\n\tauthor = {Tomas Cerny and Jan Svacina and Dipta Das and Vincent Bushong and Miroslav Bures and Pavel Tisnovsky and Karel Frajtak and Dongwan Shin and Jun Huang},\n\ttitle = {On Code Analysis Opportunities and Challenges for Enterprise Systems and Microservices}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 34,
+"title": "Failure Prediction by Utilizing Log Analysis: A Systematic Mapping Study",
+"doi": "10.1145/3400286.3418263",
+"description": "In modern computing, log files provide a wealth of information regarding the past of a system, including the system failures and security breaches that cost companies and developers a fortune in both time and money. While this information can be used to attempt to recover from a problem, such an approach merely mitigates the damage that has already been done. Detecting problems, however, is not the only information that can be gathered from log files. It is common knowledge that segments of log files, if analyzed correctly, can yield a good idea of what the system is likely going to do next in real-time, allowing a system to take corrective action before any negative actions occur. In this paper, the authors put forth a systematic map of this field of log prediction, screening several hundred papers and finally narrowing down the field to approximately 30 relevant papers. These papers, when broken down, give a good idea of the state of the art, methodologies employed, and future challenges that still must be overcome. Findings and conclusions of this study can be applied to a variety of software systems and components, including classical software systems, as well as software parts of control, or the Internet of Things (IoT) systems.",
+"venue": "RACS",
+"listofauthors": "Dipta Das, Micah Schiewe, Elizabeth Brighton, Mark Fuller, T. Cerný, Miroslav Bures, Karel Frajták, Dongwan Shin, Pavel Tisnovsky",
+"citations": 3,
+"year": 2020,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2020,\n\tdoi = {10.1145/3400286.3418263},\n\turl = {https://doi.org/10.1145%2F3400286.3418263},\n\tyear = 2020,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Dipta Das and Micah Schiewe and Elizabeth Brighton and Mark Fuller and Tomas Cerny and Miroslav Bures and Karel Frajtak and Dongwan Shin and Pavel Tisnovsky},\n\ttitle = {Failure Prediction by Utilizing Log Analysis}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 40,
+"title": "Case study on data communication in microservice architecture",
+"doi": "10.1145/3338840.3355659",
+"description": "Microservice Architecture is becoming a design standard for modern cloud-based software systems. However, data communication management remains a challenge. This is especially apparent when migrating from an existing monolithic system into microservices. In this paper, we report on data synchronization and improvement of the data-source performance. We faced these challenges in production-level development. Two case studies illustrate and describe our approach. To address data synchronization we propose using an automated data streaming system between databases. To improve the performance of a data-source we introduced a solution with the distributed cache. We discuss the balance between the performance and coupling and point out situations where our architectures are appropriate.",
+"venue": "RACS",
+"listofauthors": "Antonin Smid, Ruolin Wang, T. Cerný",
+"citations": 1,
+"year": 2019,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2019,\n\tdoi = {10.1145/3338840.3355659},\n\turl = {https://doi.org/10.1145%2F3338840.3355659},\n\tyear = 2019,\n\tmonth = {sep},\n\tpublisher = {{ACM}},\n\tauthor = {Antonin Smid and Ruolin Wang and Tomas Cerny},\n\ttitle = {Case study on data communication in microservice architecture}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 35,
+"title": "Aspects of Quality in Internet of Things (IoT) Solutions: A Systematic Mapping Study",
+"doi": "10.1109/ACCESS.2019.2893493",
+"description": "Internet of Things (IoT) is an emerging technology that has the promising power to change our future. Due to the market pressure, IoT systems may be released without sufficient testing. However, it is no longer acceptable to release IoT systems to the market without assuring the quality. As in the case of new technologies, the quality assurance process is a challenging task. This paper shows the results of the first comprehensive and systematic mapping study to structure and categories the research evidence in the literature starting in 2009 when the early publication of IoT papers for IoT quality assurance appeared. The conducted research is based on the most recent guidelines on how to perform systematic mapping studies. A set of research questions is defined carefully regarding the quality aspects of the IoT. Based on these questions, a large number of evidence and research papers is considered in the study (478 papers). We have extracted and analyzed different levels of information from those considered papers. Also, we have classified the topics addressed in those papers into categories based on the quality aspects. The study results carry out different areas that require more work and investigation in the context of IoT quality assurance. The results of the study can help in a further understanding of the research gaps. Moreover, the results show a roadmap for future research directions.",
+"venue": "IEEE Access",
+"listofauthors": "Bestoun S. Ahmed, Miroslav Bures, Karel Frajták, T. Cerný",
+"citations": 28,
+"year": 2019,
+"publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+"pages": "13758-13780",
+"volume": "7",
+"number": null,
+"bibtex": "@article{2019,\n\tdoi = {10.1109/access.2019.2893493},\n\turl = {https://doi.org/10.1109%2Faccess.2019.2893493},\n\tyear = 2019,\n\tpublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\n\tvolume = {7},\n\tpages = {13758--13780},\n\tauthor = {Bestoun S. Ahmed and Miroslav Bures and Karel Frajtak and Tomas Cerny},\n\ttitle = {Aspects of Quality in Internet of Things ({IoT}) Solutions: A Systematic Mapping Study}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 36,
+"title": "Intelligent token-based code clone detection system for large scale source code",
+"doi": "10.1145/3338840.3355654",
+"description": "A code clone refers to code fragments in the source code that are identical or similar to each other. Code clones lead difficulties in software maintenance, bug fixing, present poor design and increase the system size. Code clone detection techniques and tools have been proposed by many researchers, however, there is a lack of clone detection techniques especially for large scale repositories. In this paper, we present a token-based clone detector called Intelligent Clone Detection Tool (ICDT) that can detect both exact and near-miss clones from large repositories using a standard workstation environment. In order to evaluate the scalability and the efficiency of ICDT, we use the most recent benchmark which is a big benchmark of real clones, BigCloneBench. In addition, we compare ICDT to four publicly available and state-of-the-art tools.",
+"venue": "RACS",
+"listofauthors": "Abdulrahman Abu Elkhail, J. Svacina, T. Cerný",
+"citations": 2,
+"year": 2019,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2019,\n\tdoi = {10.1145/3338840.3355654},\n\turl = {https://doi.org/10.1145%2F3338840.3355654},\n\tyear = 2019,\n\tmonth = {sep},\n\tpublisher = {{ACM}},\n\tauthor = {Abdulrahman Abu Elkhail and Jan Svacina and Tomas Cerny},\n\ttitle = {Intelligent token-based code clone detection system for large scale source code}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 37,
+"title": "Aspect-oriented challenges in system integration with microservices, SOA and IoT",
+"doi": "10.1080/17517575.2018.1462406",
+"description": "ABSTRACT The era of system integration through service-oriented architecture is rapidly becoming a legacy. New systems increasingly rely on the successor microservice architecture. However, distributed applications can also play a significant role in the internet-of-things. In this paper, we gather evidence demonstrating cross-cutting issues in these areas and highlight how aspect-oriented programming addresses them. Specifically, the purpose of this paper is to provide a roadmap for using aspect-oriented programming to deal effectively with crosscuts in application design, systems interaction, and integration.",
+"venue": "Enterp. Inf. Syst.",
+"listofauthors": "T. Cerný",
+"citations": 18,
+"year": 2018,
+"publisher": "Informa UK Limited",
+"pages": "467-489",
+"volume": "13",
+"number": "4",
+"bibtex": "@article{2018,\n\tdoi = {10.1080/17517575.2018.1462406},\n\turl = {https://doi.org/10.1080%2F17517575.2018.1462406},\n\tyear = 2018,\n\tmonth = {apr},\n\tpublisher = {Informa {UK} Limited},\n\tvolume = {13},\n\tnumber = {4},\n\tpages = {467--489},\n\tauthor = {Tomas Cerny},\n\ttitle = {Aspect-oriented challenges in system integration with microservices, {SOA} and {IoT}}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 38,
+"title": "On Automated Role-Based Access Control Assessment in Enterprise Systems",
+"doi": "10.1007/978-981-15-1465-4_38",
+"description": "Software system security gets a lot of attention from the industry for its crucial role in protecting private resources. Typically, users access a system’s services via an application programming interface (API). This API must be protected to prevent unauthorized access. One way that developers deal with this challenge is by using role-based access control where each entry point is associated with a set of user roles. However, entry points may use the same methods from lower layers in the application with inconsistent permissions. Currently, developers use integration or penetration testing which demands a lot of effort to test authorization inconsistencies. This paper proposes an automated method to test role-based access control in enterprise applications. Our method verifies inconsistencies within the application using authorization role definitions that are associated with the API entry points. By analyzing the method calls and entity accesses on subsequent layers, inconsistencies across the entire application can be extracted. We demonstrate our solution in a case study and discuss our preliminary results.",
+"venue": "",
+"listofauthors": "Andrew Walker, J. Svacina, J. Simmons, T. Cerný",
+"citations": 6,
+"year": 2019,
+"publisher": "Springer Singapore",
+"pages": "375-385",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2019,\n\tdoi = {10.1007/978-981-15-1465-4_38},\n\turl = {https://doi.org/10.1007%2F978-981-15-1465-4_38},\n\tyear = 2019,\n\tmonth = {dec},\n\tpublisher = {Springer Singapore},\n\tpages = {375--385},\n\tauthor = {Andrew Walker and Jan Svacina and Johnathan Simmons and Tomas Cerny},\n\ttitle = {On Automated Role-Based Access Control Assessment in Enterprise Systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 39,
+"title": "On Limitations of Modern Static Analysis Tools",
+"doi": "10.1007/978-981-15-1465-4_57",
+"description": "Static analysis is one of the most important tools for developers in the modern software industry. However, due to limitations by current tools, many developers opt out of using static analysis in their development process. Some of these limitations include the lack of a concise, coherent overview, missing support for multiple repository applications and multiple languages and lastly a lack of standardized integration mechanisms for third-party frameworks. We propose an evaluation metric for static analysis tools and offer a comparison of many common static analysis tools. To demonstrate the goal of our metric we introduce the Fabric8-Analytics Quality Assurance Tool as a benchmark of a tool which successfully passes our evaluation metric. We demonstrate usage of this tool via a case study on the Fabric8-Analytics Framework, a framework for finding vulnerabilities in application dependencies. We issue a challenge to developers of modern static analysis tools to make their tools more usable and appealing to developers.",
+"venue": "",
+"listofauthors": "Andrew Walker, M. Coffey, Pavel Tisnovsky, T. Cerný",
+"citations": 3,
+"year": 2019,
+"publisher": "Springer Singapore",
+"pages": "577-586",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2019,\n\tdoi = {10.1007/978-981-15-1465-4_57},\n\turl = {https://doi.org/10.1007%2F978-981-15-1465-4_57},\n\tyear = 2019,\n\tmonth = {dec},\n\tpublisher = {Springer Singapore},\n\tpages = {577--586},\n\tauthor = {Andrew Walker and Michael Coffey and Pavel Tisnovsky and Tomas Cerny},\n\ttitle = {On Limitations of Modern Static Analysis Tools}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 41,
+"title": "On Relating Code Smells to Security Vulnerabilities",
+"doi": "10.1109/BigDataSecurity-HPSC-IDS.2019.00013",
+"description": "In recent years there has been an abundance of well-known software design problems that fall under a variety of different terms such as flaws or code smells. Nowadays software systems place considerable importance to security concerns related to code flaws that lead to software vulnerabilities. In this paper, we present a study to identify the relationship between code smells and vulnerabilities in software code. Our study provides information about the impact of code smells on software security and considers open source implementation of technologies under the Apache Tomcat software. The results show the relationship between the code smells and the security vulnerabilities. While most code smells, have a slight impact, one particular smell is identified to have a more considerable impact.",
+"venue": "2019 IEEE 5th Intl Conference on Big Data Security on Cloud (BigDataSecurity), IEEE Intl Conference on High Performance and Smart Computing, (HPSC) and IEEE Intl Conference on Intelligent Data and Security (IDS)",
+"listofauthors": "Abdulrahman Abu Elkhail, T. Cerný",
+"citations": 3,
+"year": 2019,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2019,\n\tdoi = {10.1109/bigdatasecurity-hpsc-ids.2019.00013},\n\turl = {https://doi.org/10.1109%2Fbigdatasecurity-hpsc-ids.2019.00013},\n\tyear = 2019,\n\tmonth = {may},\n\tpublisher = {{IEEE}},\n\tauthor = {Abdulrahman Abu Elkhail and Tomas Cerny},\n\ttitle = {On Relating Code Smells to Security Vulnerabilities}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 42,
+"title": "On isolation-driven automated module decomposition",
+"doi": "10.1145/3264746.3264756",
+"description": "Contemporary enterprise systems focus primarily on performance and development/maintenance costs. Dealing with cyber-threats and system compromise is relegated to good coding (i.e., defensive programming) and secure environment (e.g., patched OS, firewalls, etc.). This approach, while a necessary start, is not sufficient. Such security relies on no missteps, and compromise only need a single flaw; consequently, we must design for compromise and mitigate its impact. One approach is to utilize fine-grained modularization and isolation. In such a system, decomposition ensures that compromise of a single module presents limited and known risk to data/resource theft and denial. We propose mechanisms for automating such modular composition and consider its system performance impact.",
+"venue": "RACS",
+"listofauthors": "T. Cerný, Filip Sedlisky, M. J. Donahoo",
+"citations": 0,
+"year": 2018,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2018,\n\tdoi = {10.1145/3264746.3264756},\n\turl = {https://doi.org/10.1145%2F3264746.3264756},\n\tyear = 2018,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny and Filip Sedlisky and Michael J. Donahoo},\n\ttitle = {On isolation-driven automated module decomposition}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 43,
+"title": "Survey on Compromise-Defensive System Design",
+"doi": "10.1007/978-981-13-1056-0_51",
+"description": "Conventional enterprise application design methodologies emphasize performance, scalability, and development/maintenance costs. Often such applications deal with access to confidential data (e-commerce, health, etc.). A single flaw in the application may lead to a compromise, exposing computational resources and sensitive data, such as private information, trade secrets, etc. Traditionally, security for enterprise applications focused on prevention; however, recent experience demonstrates that exploitation of infrastructure, operating systems, libraries, frameworks, personnel, etc. are almost unavoidable. While prevention should certainly remain the first line of defense, system architects must also incorporate designs to enable breach containment and response. In this paper, we survey related research on software application design that targets isolation, where the compromise of a single module presents a knowable and scope-limited worst-case impact.",
+"venue": "ICISA",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 1,
+"year": 2018,
+"publisher": "Springer Singapore",
+"pages": "513-521",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2018,\n\tdoi = {10.1007/978-981-13-1056-0_51},\n\turl = {https://doi.org/10.1007%2F978-981-13-1056-0_51},\n\tyear = 2018,\n\tmonth = {jul},\n\tpublisher = {Springer Singapore},\n\tpages = {513--521},\n\tauthor = {Tomas Cerny and Michael Jeff Donahoo},\n\ttitle = {Survey on Compromise-Defensive System Design}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 44,
+"title": "Contextual understanding of microservice architecture: current and future directions",
+"doi": "10.1145/3183628.3183631",
+"description": "Current industry trends in enterprise architectures indicate movement from Service-Oriented Architecture (SOA) to Microservices. By understanding the key differences between these two approaches and their features, we can design a more effective Microservice architecture by avoiding SOA pitfalls. To do this, we must know why this shift is happening and how key SOA functionality is addressed by key features of the Microservice-based system. Unfortunately, Microservices do not address all SOA shortcomings. In addition, Microservices introduce new challenges. This work provides a detailed analysis of the differences between these two architectures and their features. Next, we describe both research and industry perspectives on the strengths and weaknesses of both architectural directions. Finally, we perform a systematic mapping study related to Microservice research, identifying interest and challenges in multiple categories from a range of recent research.",
+"venue": "SIAP",
+"listofauthors": "T. Cerný, M. J. Donahoo, Michal Trnka",
+"citations": 74,
+"year": 2018,
+"publisher": "Association for Computing Machinery (ACM)",
+"pages": "29-45",
+"volume": "17",
+"number": "4",
+"bibtex": "@article{2018,\n\tdoi = {10.1145/3183628.3183631},\n\turl = {https://doi.org/10.1145%2F3183628.3183631},\n\tyear = 2018,\n\tmonth = {jan},\n\tpublisher = {Association for Computing Machinery ({ACM})},\n\tvolume = {17},\n\tnumber = {4},\n\tpages = {29--45},\n\tauthor = {Tomas Cerny and Michael J. Donahoo and Michal Trnka},\n\ttitle = {Contextual understanding of microservice architecture}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 45,
+"title": "Pattern Matching Based Sensor Identification Layer for an Android Platform",
+"doi": "10.1155/2018/4734527",
+"description": "As sensor-related technologies have been developed, smartphones obtain more information from internal and external sensors. This interaction accelerates the development of applications in the Internet of Things environment. Due to many attributes that may vary the quality of the IoT system, sensor manufacturers provide their own data format and application even if there is a well-defined standard, such as ISO/IEEE 11073 for personal health devices. In this paper, we propose a client-server-based sensor adaptation layer for an Android platform to improve interoperability among nonstandard sensors. Interoperability is an important quality aspect for the IoT that may have a strong impact on the system especially when the sensors are coming from different sources. Here, the server compares profiles that have clues to identify the sensor device with a data packet stream based on a modified Boyer-Moore-Horspool algorithm. Our matching model considers features of the sensor data packet. To verify the operability, we have implemented a prototype of this proposed system. The evaluation results show that the start and end pattern of the data packet are more efficient when the length of the data packet is longer.",
+"venue": "Wirel. Commun. Mob. Comput.",
+"listofauthors": "Hong Min, Taesik Kim, Junyoung Heo, T. Cerný, S. Sankaran, Bestoun S. Ahmed, Jinmang Jung",
+"citations": 0,
+"year": 2018,
+"publisher": "Hindawi Limited",
+"pages": "1-11",
+"volume": "2018",
+"number": null,
+"bibtex": "@article{2018,\n\tdoi = {10.1155/2018/4734527},\n\turl = {https://doi.org/10.1155%2F2018%2F4734527},\n\tyear = 2018,\n\tmonth = {oct},\n\tpublisher = {Hindawi Limited},\n\tvolume = {2018},\n\tpages = {1--11},\n\tauthor = {Hong Min and Taesik Kim and Junyoung Heo and Tomas Cerny and Sriram Sankaran and Bestoun S. Ahmed and Jinman Jung},\n\ttitle = {Pattern Matching Based Sensor Identification Layer for an Android Platform}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 46,
+"title": "Internet of Things: Current Challenges in the Quality Assurance and Testing Methods",
+"doi": "10.1007/978-981-13-1056-0_61",
+"description": "Contemporary development of the Internet of Things (IoT) technology brings a number of challenges in the Quality Assurance area. Current issues related to security, user's privacy, the reliability of the service, interoperability, and integration are discussed. All these create a demand for specific Quality Assurance methodology for the IoT solutions. In the paper, we present the state of the art of this domain and we discuss particular areas of system testing discipline, which is not covered by related work sufficiently so far. This analysis is supported by results of a recent survey we performed among ten IoT solutions providers, covering various areas of IoT applications.",
+"venue": "ICISA",
+"listofauthors": "Miroslav Bures, T. Cerný, Bestoun S. Ahmed",
+"citations": 19,
+"year": 2018,
+"publisher": "Springer Singapore",
+"pages": "625-634",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2018,\n\tdoi = {10.1007/978-981-13-1056-0_61},\n\turl = {https://doi.org/10.1007%2F978-981-13-1056-0_61},\n\tyear = 2018,\n\tmonth = {jul},\n\tpublisher = {Springer Singapore},\n\tpages = {625--634},\n\tauthor = {Miroslav Bures and Tomas Cerny and Bestoun S. Ahmed},\n\ttitle = {Internet of Things: Current Challenges in the Quality Assurance and Testing Methods}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 47,
+"title": "Aspect oriented context-aware and event-driven data processing for internet of things",
+"doi": "10.1145/3264746.3264761",
+"description": "The Internet of Things is currently getting significant interest from the scientific community. Academia and industry are both focused on moving ahead in attempts to put Internet of Things in practical use. Sensors and other devices in the Internet of Things networks generate tremendous amounts of data. Most of the times those data carry some contextual information and thus could be used for context-aware application. However, handling the vast amount of data becomes increasingly demanding task. In this article we propose event-driven solution for context-aware applications. In our method events are generated by Internet of Things devices and further propagated to subscribed actions. It support event filtering based on the data the event carries with him, like temperature or location. We demonstrate feasibility of our solution and compare it with traditional approach.",
+"venue": "RACS",
+"listofauthors": "Michal Trnka, J. Svacina, T. Cerný, Eunjee Song",
+"citations": 0,
+"year": 2018,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2018,\n\tdoi = {10.1145/3264746.3264761},\n\turl = {https://doi.org/10.1145%2F3264746.3264761},\n\tyear = 2018,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Michal Trnka and Jan Svacina and Tomas Cerny and Eunjee Song},\n\ttitle = {Aspect oriented context-aware and event-driven data processing for internet of things}\n}",
+"authorsSemantic": [
+9,
+1
+]
+},
+{
+"id": 48,
+"title": "Survey of Authentication and Authorization for the Internet of Things",
+"doi": "10.1155/2018/4351603",
+"description": "The Internet of Things is currently getting significant interest from the scientific community. Academia and industry are both focused on moving ahead in attempts to enhance usability, maintainability, and security through standardization and development of best practices. We focus on security because of its impact as one of the most limiting factors to wider Internet of Things adoption. Numerous research areas exist in the security domain, ranging from cryptography to network security to identity management. This paper provides a survey of existing research applicable to the Internet of Things environment at the application layer in the areas of identity management, authentication, and authorization. We survey and analyze more than 200 articles, categorize them, and present current trends in the Internet of Things security domain.",
+"venue": "Secur. Commun. Networks",
+"listofauthors": "Michal Trnka, T. Cerný, Nathaniel Stickney",
+"citations": 25,
+"year": 2018,
+"publisher": "Hindawi Limited",
+"pages": "1-17",
+"volume": "2018",
+"number": null,
+"bibtex": "@article{2018,\n\tdoi = {10.1155/2018/4351603},\n\turl = {https://doi.org/10.1155%2F2018%2F4351603},\n\tyear = 2018,\n\tmonth = {jun},\n\tpublisher = {Hindawi Limited},\n\tvolume = {2018},\n\tpages = {1--17},\n\tauthor = {Michal Trnka and Tomas Cerny and Nathaniel Stickney},\n\ttitle = {Survey of Authentication and Authorization for the Internet of Things}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 49,
+"title": "Degree of Similarity of Root Trees",
+"doi": "10.1007/978-981-13-1056-0_57",
+"description": "Adaptive User Interfaces (UI) provide better user experience as users a receive personalized presentation. These UIs heavily rely on contextual data. Context helps the application to recognize user needs and thus adjust the UI. First time user receives a generalized experience; however, as the user uses the application more often it gathers lots of contextual data, such as the history of actions. This allows to statistically classify user in a user cluster and based on that adapt the UI presentation. This paper considers methods to find a measure of similarity of graphs to support adaptive UIs. To achieve this, it considers rooted trees. It states known approaches, which could be used for calculation of this measure. It focuses on the Simhash algorithm and describes its implementation in the SimCom experimental comparative application. Its results show that Simhash can be used for comparing the rooted trees. The main aim of this paper is to show novel view on how to use graph algorithms and clustering of trees into adaptive application structure.",
+"venue": "ICISA",
+"listofauthors": "Jirí Sebek, Petr Vondrus, T. Cerný",
+"citations": 0,
+"year": 2018,
+"publisher": "Springer Singapore",
+"pages": "581-591",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2018,\n\tdoi = {10.1007/978-981-13-1056-0_57},\n\turl = {https://doi.org/10.1007%2F978-981-13-1056-0_57},\n\tyear = 2018,\n\tmonth = {jul},\n\tpublisher = {Springer Singapore},\n\tpages = {581--591},\n\tauthor = {Jiri Sebek and Petr Vondrus and Tomas Cerny},\n\ttitle = {Degree of Similarity of Root Trees}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 50,
+"title": "Security Challenges in Smart City Applications",
+"doi": null,
+"description": "Recent technological innovations have resulted in a deployment of a large number of interconnected IoT devices for augmenting personal lifestyle. Urbanization is happening at a remarkable rate, and it is estimated to reach 5 billion population by 2030, likely resulting in dense clustering of these devices. Such proliferation requires advanced management approaches using the latest IT platforms and techniques for adapting city-related services to this new expectation. Such emerging integration of technologies like ubiquitous sensing, heterogeneous network infrastructure, and intelligent Information processing and control systems faces several security challenges. Our research focuses on providing an overview based on research efforts in smart cities addressing these security challenges and solutions for smart transportation, living, healthcare, and energy. We highlight the effects of malicious attacks and their countermeasures while addressing discrimination from false positives such a Flash Event (FE). Finally, we discuss future research directions and limitations.",
+"venue": "",
+"listofauthors": "Safwan Mawlood Hussein, M. J. Donahoo, T. Cerný",
+"citations": 0,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 51,
+"title": "Using Wi-Fi Enabled Internet of Things Devices for Context-Aware Authentication",
+"doi": "10.1007/978-981-13-1056-0_62",
+"description": "The increasing spread and adoption of the Internet of Things allows for novel methods to gather information about a user’s context, which can be used for enhanced authentication. In this article, we focus on context-aware authentication using information about Wi-Fi networks from a user’s wearables or nearables. We propose an additional factor for multi-factor authentication based on the other devices present on the same Wi-Fi network. Devices periodically discover all available peer MAC addresses. During subsequent authentication attempts, the network state is compared to previous network states saved under functionally similar conditions. If the devices on the network change significantly, a flag is raised and further action can be triggered. We also demonstrate the solution as a proof of concept.",
+"venue": "ICISA",
+"listofauthors": "Michal Trnka, Filip Rysavy, T. Cerný, Nathaniel Stickney",
+"citations": 4,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n<head>\n<title>Error: DOI Not Found</title>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\n<link rel=\"icon\" href=\"/static/img/favicon.png\" />\n<link rel=\"shortcut icon\" href=\"/static/favicon.ico\" type=\"image/x-icon\" /> \n<link href=\"/static/style/new-style2.css\" rel=\"stylesheet\" type=\"text/css\" />\n</head>\n\n<body>\n\n\n<div style=\"background:#fcb426\">\n<img src=\"/static/img/banner-413.gif\" alt=\"Logo\" width=\"620\" height=\"137\" border=\"0\" />\n</div>\n\n<div style=\"height:1px;background:#000000\"></div>\n<div style=\"height:1px;background:#54524f\"></div>\n<div style=\"height:1px;background:#f6911e\"></div>\n\n\n<!-- TABLE FOR NAVIGATION BAR -->\n<table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" id=\"navtable\" align=\"center\">\n<tr>\n    <td width=\"34\" height=\"26\" bgcolor=\"#231f20\"><img src=\"/static/img/transparent.gif\" alt=\"\" width=\"1\" height=\"1\" /></td>\n    \n    <td height=\"26\" bgcolor=\"#231f20\" class=\"navtext\">\n    <a href=\"http://www.doi.org/index.html\">HOME</a> &nbsp;|&nbsp;<a href=\"http://www.doi.org/hb.html\">HANDBOOK</a> &nbsp;|&nbsp;<a href=\"http://www.doi.org/factsheets.html\">FACTSHEETS</a> &nbsp;|&nbsp;<a href=\"http://www.doi.org/faq.html\">FAQs</a> &nbsp;|&nbsp; <a href=\"http://www.doi.org/resources.html\">RESOURCES</a> &nbsp;|&nbsp;<a href=\"http://www.doi.org/users.html\">USERS</a> &nbsp;|&nbsp;<a href=\"http://www.doi.org/announce.html\">NEWS</a> &nbsp;|&nbsp;<a href=\"http://www.doi.org/idf-members/index.html\">MEMBERS AREA</a>\n    </td>    \n  </tr>\n</table>\n<!-- END TABLE FOR NAVIGATION BAR -->\n\n<div style=\"height:1px;background:#e3a44d\"></div>\n<div style=\"height:3px;background:#4d4942\"></div>\n\n\n\n<!-- TABLE FOR CONTENT -->      \n<table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#ffffff\">\n<tr>\n<td colspan=\"6\">\n<img src=\"/static/img/transparent.gif\" alt=\"\" width=\"100\" height=\"20\" border=\"0\" />\n</td>\n</tr>\n\n<tr>\n\n<td valign=\"top\">\n\n<h2>DOI Not Found</h2>\n\n<div class=\"divider\">&nbsp;</div>\n\n\n\n<h3>10.1007/978-981-13-1056-0_62</h3>\n\n<div class=\"divider\">&nbsp;</div>\n\n\n\n\n<p>This DOI cannot be found in the DOI System.  Possible reasons are:</p>\n\n\n<ul>\n\n<li style=\"padding-bottom: .5em;\">The DOI is incorrect in your source. Search for the item by name, title, or other metadata using a search engine.</li>\n\n<li style=\"padding-bottom: .5em;\">The DOI was copied incorrectly. Check to see that the string includes all the characters before and after the slash and no sentence punctuation marks.</li>\n\n<li style=\"padding-bottom: .5em;\">The DOI has not been activated yet.  Please try again later, and report the problem if the error continues.</li>\n\n</ul>\n\n\n\n<div class=\"divider\">&nbsp;</div>\n\n<p>You may report this error to the responsible DOI Registration Agency using the form below.  Include your email address to receive confirmation and feedback.</p>\n\n<div style=\"padding-left: 4em;\">\n\n<form action=\"/notfound\" method=\"post\" enctype=\"application/x-www-form-urlencoded\" name=\"notFoundForm\">\n\n\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"3\">\n<tbody>\n<tr>\n<td>\n\n<table border=\"0\" align=\"center\" cellpadding=\"3\" cellspacing=\"3\">\n<tbody><tr>\n<th  align=\"right\" scope=\"row\"><label>DOI:</label></th>\n<td><input name=\"missingHandle\" type=\"text\" value=\"10.1007/978-981-13-1056-0_62\" size=\"42\" readonly=\"readonly\" /></td>\n</tr>\n<tr>\n<th align=\"right\" scope=\"row\"><label>URL of Web Page Listing the DOI:</label></th>\n<td><input name=\"referringPage\" type=\"text\" value=\"\" size=\"42\" readonly=\"readonly\" /></td>\n</tr>\n<tr>\n<th align=\"right\" scope=\"row\">Your Email Address:</th>\n<td><input name=\"userEmailAddress\" type=\"text\" value=\"Please enter your email address\" size=\"42\" /></td>\n</tr>\n<tr>\n<th align=\"right\" scope=\"row\" valign=\"top\">Additional Information About the Error:</th>\n<td><textarea name=\"comments\" cols=\"30\" rows=\"6\"></textarea></td>\n</tr>\n</tbody>\n</table>\n\n</td>\n</tr>\n<tr>\n\n<td align=\"right\"><p><input name=\"send\" type=\"submit\" value=\"Submit Error Report\" /></p></td>\n</tr>\n</tbody>\n</table>\n\n</form>\n</div>\n\n\n\n\n</td>\n<td><img src=\"/static/img/transparent.gif\" alt=\"\" width=\"20\" height=\"20\" border=\"0\" /></td>\n</tr>\n</table>\n\n<div class=\"divider-full\">&nbsp;</div>\n\n<!-- TABLE FOR FOOTER -->\n\n<table  border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\">\n\n<tr>\n<td align=\"center\" colspan=\"2\">\n<a href=\"/help.html\">DOI Resolution Documentation</a>\n</td>\n</tr>\n\n<tr>\n<td align=\"left\" height=\"40\">\n<img src=\"/static/img/Logo_TM.png\" alt=\"DOI_disc_logo\" width=\"24\" height=\"24\" />\n</td>\n\n<td align=\"left\">\n<span style=\"padding-left: 0px; font-size: 11px;\"><span style=\"vertical-align: super;\">&reg;</span>, DOI<span style=\"vertical-align: super;\">&reg;</span>, DOI.ORG<span style=\"vertical-align: super;\">&reg;</span>, and shortDOI<span style=\"vertical-align: super;\">&reg;</span> are trademarks of the International DOI Foundation.</span>\n</td>       \n</tr>\n</table>\n</body>\n</html>\n",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 52,
+"title": "Second Screen Engagement of Event Spectators",
+"doi": "10.1155/2018/3845123",
+"description": "An effective means of engaging spectators at live events involves providing real-time information from a variety of sources. Consumers demand personalized experience; thus, a single channel perspective fails. Modern entertainment must extend to spectator mobile devices and adapt content to individual interests. Moreover, such systems should take advantage of venue screens to engage in sharing live information, aggregated social media, etc. We propose a second screen application, providing each audience member a personalized perspective, involving mobile devices equipped with Wi-Fi, and spanning to venue screens in hotels, halls, arenas, elevators, etc. Such a system engages both local audience and remote spectators. Our work provides a case study involving experience from the deployment of such an application at the ACM-ICPC World Finals with audiences at the event and around the world. We analyze and categorize its features, consider its impact on the audience, and measure its demands.",
+"venue": "Adv. Hum. Comput. Interact.",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 4,
+"year": 2018,
+"publisher": "Hindawi Limited",
+"pages": "1-20",
+"volume": "2018",
+"number": null,
+"bibtex": "@article{2018,\n\tdoi = {10.1155/2018/3845123},\n\turl = {https://doi.org/10.1155%2F2018%2F3845123},\n\tyear = 2018,\n\tmonth = {jul},\n\tpublisher = {Hindawi Limited},\n\tvolume = {2018},\n\tpages = {1--20},\n\tauthor = {Tomas Cerny and Michael Jeff Donahoo},\n\ttitle = {Second Screen Engagement of Event Spectators}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 53,
+"title": "Aspect-driven context-aware services",
+"doi": "10.15439/2017F397",
+"description": "Nowadays enterprise software solutions must deal with ever-growing complexity and a multitude of business processes. The mainstream system design decomposes the system into small reusable services. While these services isolate certain system logic and address efficient elasticity towards growing user demands, there are multiple issues related to such a design, such as limitations to deal with restated information, information reuse or the ability to address cross-cutting concerns across multiple services. This paper highlights limitations of service-oriented architecture and proposes an alternative decomposition through aspect-driven service-oriented architecture. Such architecture involves adaptive, context-aware services preserving simple maintenance while addressing information reuse and crosscuts across services. The paper provides a formal description of the proposed architecture as well as a demonstration through a case study, showing approach properties and benefits.",
+"venue": "2017 Federated Conference on Computer Science and Information Systems (FedCSIS)",
+"listofauthors": "Karel Cemus, Filip Klimes, T. Cerný",
+"citations": 2,
+"year": 2017,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2017,\n\tdoi = {10.15439/2017f397},\n\turl = {https://doi.org/10.15439%2F2017f397},\n\tyear = 2017,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Karel Cemus and Filip Klimes and Tomas Cerny},\n\ttitle = {Aspect-driven Context-aware Services}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 54,
+"title": "Automated extraction of business documentation in enterprise information systems",
+"doi": "10.1145/3040575.3040576",
+"description": "Extracting business documentation from ever-evolving information systems is a challenging task that requires a lot of effort, focus and technical expertise. Such a documentation provides a detailed overview of the system, lists domain model, operations, pre and post-conditions that impact the business flow. While all this information is captured by a particular software system, domain experts interested in such knowledge have limited access to it, either due to the lack of technical and programming expertise, or because the knowledge tangles throughout the entire system.\n This paper introduces a novel approach in aspect-driven information systems enabling automated extraction of business documentation and its transformation to various perspectives allowing domain experts to acquire needed and up-to-date information and knowledge. Moreover, our approach makes it possible to transform system business rules into a formal language description verifiable by checkers validating the feasibility of business operations. We demonstrate the approach in a case study indicating its benefits.",
+"venue": "SIAP",
+"listofauthors": "Karel Cemus, T. Cerný",
+"citations": 1,
+"year": 2017,
+"publisher": "Association for Computing Machinery (ACM)",
+"pages": "5-13",
+"volume": "16",
+"number": "4",
+"bibtex": "@article{2017,\n\tdoi = {10.1145/3040575.3040576},\n\turl = {https://doi.org/10.1145%2F3040575.3040576},\n\tyear = 2017,\n\tmonth = {jan},\n\tpublisher = {Association for Computing Machinery ({ACM})},\n\tvolume = {16},\n\tnumber = {4},\n\tpages = {5--13},\n\tauthor = {Karel Cemus and Tomas Cerny},\n\ttitle = {Automated extraction of business documentation in enterprise information systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 55,
+"title": "Separation of concerns for distributed cross-platform context-aware user interfaces",
+"doi": "10.1007/s10586-017-0794-7",
+"description": "Modern applications aim to provide attractive, efficient and adaptive user interfaces (UIs). The UI code developed in conventional design approaches brings numerous of difficulties exacerbating the development and maintenance efforts resulting in limited separation of concerns. The limitation comes from multiple cross-cuts of tangled concerns, e.g. data representation tangled with layout, security, business rules, localization, etc. This results in high information restatement, code duplication, and tedious maintenance. This paper introduces an approach that separates UI concerns bringing a single focal point for particular concern definitions improving readability and maintenance. The approach performs concern tangling at runtime through a weaver considering the contextual information influencing the result. This enables UI context-awareness, while significantly reduces the development and maintenance efforts. Furthermore, we apply this approach into a distributed environment, which allows us to construct the same UI on various platforms and devices involving a single concerns description streamed from the server.",
+"venue": "Cluster Computing",
+"listofauthors": "Karel Cemus, Filip Klimes, O. Kratochvil, T. Cerný",
+"citations": 6,
+"year": 2017,
+"publisher": "Springer Science and Business Media LLC",
+"pages": "2355-2362",
+"volume": "20",
+"number": "3",
+"bibtex": "@article{2017,\n\tdoi = {10.1007/s10586-017-0794-7},\n\turl = {https://doi.org/10.1007%2Fs10586-017-0794-7},\n\tyear = 2017,\n\tmonth = {mar},\n\tpublisher = {Springer Science and Business Media {LLC}},\n\tvolume = {20},\n\tnumber = {3},\n\tpages = {2355--2362},\n\tauthor = {Karel Cemus and Filip Klimes and Ondrej Kratochvil and Tomas Cerny},\n\ttitle = {Separation of concerns for distributed cross-platform context-aware user interfaces}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 56,
+"title": "Context-Aware Security Using Internet of Things Devices",
+"doi": "10.1007/978-981-10-4154-9_81",
+"description": "Current trends aim to extend software applications with context-awareness. Nowadays, there are already various approaches enabling security based on context, unfortunately there have limitations. However, the challenging topic is how to obtain as much context information about user as possible. Current progress in Internet of Things domain could be leveraged to obtain more context data. We propose a method to formalize context based on Internet of Things devices and use it for application context-aware security. Our approach is based on composition of a tree topology correlating to the user’s devices for recurring situations. Based on changes in the tree we determine unusual behavior, trigger events or invoke specific actions.",
+"venue": "ICISA",
+"listofauthors": "Michal Trnka, M. Tomásek, T. Cerný",
+"citations": 0,
+"year": 2017,
+"publisher": "Springer Singapore",
+"pages": "706-713",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2017,\n\tdoi = {10.1007/978-981-10-4154-9_81},\n\turl = {https://doi.org/10.1007%2F978-981-10-4154-9_81},\n\tyear = 2017,\n\tpublisher = {Springer Singapore},\n\tpages = {706--713},\n\tauthor = {Michal Trnka and Martin Tomasek and Tomas Cerny},\n\ttitle = {Context-Aware Security Using Internet of Things Devices}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 57,
+"title": "Prioritized Process Test: More Efficiency in Testing of Business Processes and Workflows",
+"doi": "10.1007/978-981-10-4154-9_67",
+"description": "Testing business processes and workflows in information systems, while aiming to cover all possible paths, requires high efforts demanding considerable costs. In this paper, we propose an algorithm generating a path-based test cases from the system model, based on weighted directed graph. The approach brings an alternative to the currently established test requirements concept. The algorithm reflects various levels of priorities of particular functions in the tested system, previously defined by the test designer. When compared to simulated naive approaches based on reverse reduction of test set, our proposed algorithm produces more efficient test cases in terms of number of the total test steps, whilst keeping the same level of test coverage of the priority functions of the tested system.",
+"venue": "ICISA",
+"listofauthors": "Miroslav Bures, T. Cerný, Matej Klima",
+"citations": 9,
+"year": 2017,
+"publisher": "Springer Singapore",
+"pages": "585-593",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2017,\n\tdoi = {10.1007/978-981-10-4154-9_67},\n\turl = {https://doi.org/10.1007%2F978-981-10-4154-9_67},\n\tyear = 2017,\n\tpublisher = {Springer Singapore},\n\tpages = {585--593},\n\tauthor = {Miroslav Bures and Tomas Cerny and Matej Klima},\n\ttitle = {Prioritized Process Test: More Efficiency in Testing of Business Processes and Workflows}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 58,
+"title": "Static Testing Using Different Types of CRUD Matrices",
+"doi": "10.1007/978-981-10-4154-9_68",
+"description": "Static testing leads to early detection of defects throughout a project software development. This results in reduced costs and risks in the development process. Various types of static tests can be performed. In this paper, we propose extensions to contemporary static testing techniques based on CRUD matrices. In particular, we consider cross-verification between various types of CRUD matrices made by different parties at different stages of the project. This leads into extended the verification consistency of a CRUD matrix. In our evaluation, proposed techniques lead to significantly more consistent test Data Cycle Test cases, when involving our static testing techniques. Moreover, our results indicate positive impact on lowering the number of defects that usually remain undetected under the system test.",
+"venue": "ICISA",
+"listofauthors": "Miroslav Bures, T. Cerný",
+"citations": 0,
+"year": 2017,
+"publisher": "Springer Singapore",
+"pages": "594-602",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2017,\n\tdoi = {10.1007/978-981-10-4154-9_68},\n\turl = {https://doi.org/10.1007%2F978-981-10-4154-9_68},\n\tyear = 2017,\n\tpublisher = {Springer Singapore},\n\tpages = {594--602},\n\tauthor = {Miroslav Bures and Tomas Cerny},\n\ttitle = {Static Testing Using Different Types of {CRUD} Matrices}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 59,
+"title": "Testing the consistency of business data objects using extended static testing of CRUD matrices",
+"doi": "10.1007/s10586-017-1118-7",
+"description": "Static testing is used to detect software defects in the earlier phases of the software development lifecycle, which makes the total costs caused by defects lower and the software development project less risky. Different types of static testing have been introduced and are used in software projects. In this paper, we focus on static testing related to data consistency in a software system. In particular, we propose extensions to contemporary static testing techniques based on CRUD matrices, employing cross-verifications between various types of CRUD matrices made by different parties at various stages of the software project. Based on performed experiments, the proposed static testing technique significantly improves the consistency of Data Cycle Test cases. Together with this trend, we observe growing potential of test cases to detect data consistency defects in the system under test, when utilizing the proposed technique.",
+"venue": "Cluster Computing",
+"listofauthors": "Miroslav Bures, T. Cerný, Karel Frajták, Bestoun S. Ahmed",
+"citations": 2,
+"year": 2017,
+"publisher": "Springer Science and Business Media LLC",
+"pages": "963-976",
+"volume": "22",
+"number": "S1",
+"bibtex": "@article{2017,\n\tdoi = {10.1007/s10586-017-1118-7},\n\turl = {https://doi.org/10.1007%2Fs10586-017-1118-7},\n\tyear = 2017,\n\tmonth = {aug},\n\tpublisher = {Springer Science and Business Media {LLC}},\n\tvolume = {22},\n\tnumber = {S1},\n\tpages = {963--976},\n\tauthor = {Miroslav Bures and Tomas Cerny and Karel Frajtak and Bestoun S. Ahmed},\n\ttitle = {Testing the consistency of business data objects using extended static testing of {CRUD} matrices}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 60,
+"title": "Disambiguation and Comparison of SOA, Microservices and Self-Contained Systems",
+"doi": "10.1145/3129676.3129682",
+"description": "There is an industrial shift from Service-Oriented Architectures (SOA) into Microservices; however, a quick review of online resources on these topics reveals a range of different understandings of these two architectures. Individuals often mix terms, grant false advantages or expect different quality attributes and properties. The purpose of this paper is to provide readers a solid understanding of the differences between these two architectures and their features. We provide both research and industry perspectives to point out strengths and weaknesses of both architectural directions, and we point out many shortcomings in both approaches that are not addressed by the architecture. Finally, based on this we propose challenges for future research.",
+"venue": "RACS",
+"listofauthors": "T. Cerný, M. J. Donahoo, J. Pechanec",
+"citations": 29,
+"year": 2017,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2017,\n\tdoi = {10.1145/3129676.3129682},\n\turl = {https://doi.org/10.1145%2F3129676.3129682},\n\tyear = 2017,\n\tmonth = {sep},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny and Michael J. Donahoo and Jiri Pechanec},\n\ttitle = {Disambiguation and Comparison of {SOA}, Microservices and Self-Contained Systems}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 61,
+"title": "Automated User Interface Generation Involving Field Classification",
+"doi": "10.13052/JSN2445-9739.2017.004",
+"description": "Software applications are designed with a concrete purpose in mind, specified by business owners basing on the individual requirements. The user-system interaction is specified in the analysis phase. This phase specifies inputs, outputs, interaction, etc. These elements could be specified separately based on the target platform. The designers know that the mobile clients could have a different application flow than desktop clients. However, this is not a rule and designer rarely think about the user context or application. This implies that outputs, inputs and interactions do not change automatically during the software lifecycle. In this paper we present techniques that can determine whether the user, which is in a particular context, should be required to spend his/her time to fill in fields that are not needed for accomplishing a specific business task. Moreover, these techniques are able to determine whether the fields should display or not, as well as how the system might interact with the user. Next, we present a computational architecture capable of these types of determinations and we demonstrate this technique in case study. Finally, we show how automatically combine user interface generation with our approach.",
+"venue": "",
+"listofauthors": "M. Tomásek, T. Cerný",
+"citations": 2,
+"year": 2017,
+"publisher": "River Publishers",
+"pages": "53-78",
+"volume": "2017",
+"number": "1",
+"bibtex": "@article{2017,\n\tdoi = {10.13052/jsn2445-9739.2017.004},\n\turl = {https://doi.org/10.13052%2Fjsn2445-9739.2017.004},\n\tyear = 2017,\n\tpublisher = {River Publishers},\n\tvolume = {2017},\n\tnumber = {1},\n\tpages = {53--78},\n\tauthor = {Matrtin Tomasek and Tomas Cerny and   and},\n\ttitle = {Automated User Interface Generation Involving Field Classification}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 62,
+"title": "Aspect, Rich, and Anemic Domain Models in Enterprise Information Systems",
+"doi": "10.1007/978-3-662-49192-8_36",
+"description": "The research shows that maintenance of enterprise information systems consumes about 65---75i¾?% of the software development time and about 40---60i¾?% of maintenance efforts are devoted to software understanding. This paper compares the Anemic Domain Model used by the three-layered architecture followed by Java EE and .NET platforms and the Rich Domain Model often deployed into many conventional MVC-like web frameworks to a novel Aspect Domain Model followed by the Aspect-driven design. While all these models strive to avoid information restatement, they greatly differ in the underlying idea and resulting efficiency. This research compares considered models based on development efficacy, maintainability and their impact on the rest of the system. We evaluate qualities such as information cohesion, coupling and restatement, and discuss related maintenance efforts of the novel approach in the context of existing approaches.",
+"venue": "SOFSEM",
+"listofauthors": "Karel Cemus, T. Cerný, Lubos Matl, M. J. Donahoo",
+"citations": 3,
+"year": 2016,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "445-456",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2016,\n\tdoi = {10.1007/978-3-662-49192-8_36},\n\turl = {https://doi.org/10.1007%2F978-3-662-49192-8_36},\n\tyear = 2016,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {445--456},\n\tauthor = {Karel Cemus and Tomas Cerny and Lubos Matl and Michael J. Donahoo},\n\ttitle = {Aspect, Rich, and Anemic Domain Models in Enterprise Information Systems}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 63,
+"title": "Survey on Second Screen Systems",
+"doi": "10.1109/ICITCS.2016.7740374",
+"description": "Today's consumers demand personalized experience for live events. The standard, single-for-all entertainment perspective fails to satisfy consumer expectations on broadcast of real-time information from various sources. Future entertainment environments should presume spectators equipped with mobile devices that can be involved in adapting to the entertainment and personal interests. This article surveys solutions with the ability to provide personalized perspectives to the audience. Such second screen applications may involve use of variety of devices, such as mobile phones equipped with WiFi, venue screens in hotel rooms, meeting halls, arenas, elevators, etc. Furthermore, functionality of such applications is considered regarding to interaction among with the remote spectators and the event.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 1,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740374},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740374},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Tomas Cerny and Michael Donahoo},\n\ttitle = {Survey on Second Screen Systems}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 64,
+"title": "On energy impact of web user interface approaches",
+"doi": "10.1007/s10586-016-0665-7",
+"description": "Developers base selection of a User Interface (UI) development approach on functionality, development and maintenance costs, usability, responsiveness, etc. User expectations continue to grow for greater functionality and continuous interactivity, extending demands on computational resources. To facility scale, recent approaches push more UI computation to clients. Such client-side delegation of functionality increase, continuous usage, and localized computation create ever-growing energy demands, which may negatively impact battery life on mobile platforms. Nonetheless, developers given little attention to the power demands aspects of UI framework selection. We evaluate the impact of contemporary UI framework selection on resource utilization and energy consumption. We suggest an alternative delivery approach designed to preserve low energy demands on clients while still allowing offloading of computation from server to client. Our work focuses on web-based mobile applications; however, we believe our approach to energy demand reduction and framework evaluation to be generally applicable.",
+"venue": "Cluster Computing",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 6,
+"year": 2016,
+"publisher": "Springer Science and Business Media LLC",
+"pages": "1853-1863",
+"volume": "19",
+"number": "4",
+"bibtex": "@article{2016,\n\tdoi = {10.1007/s10586-016-0665-7},\n\turl = {https://doi.org/10.1007%2Fs10586-016-0665-7},\n\tyear = 2016,\n\tmonth = {oct},\n\tpublisher = {Springer Science and Business Media {LLC}},\n\tvolume = {19},\n\tnumber = {4},\n\tpages = {1853--1863},\n\tauthor = {Tomas Cerny and Michael Jeff Donahoo},\n\ttitle = {On energy impact of web user interface approaches}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 65,
+"title": "Distributed Multi-Platform Context-Aware User Interface for Information Systems",
+"doi": "10.1109/ICITCS.2016.7740327",
+"description": "User Interface (UI) of Enterprise Information Systems deals with various concerns such as the model structure, layouts, widgets, business rules, and localization tangled together. Unfortunately, conventional development approaches fail to efficiently maintain these concerns and forces developers to manually tangle them together. That results in high information restatement, code duplication, and error-prone maintenance. In this paper, we apply Aspect-Driven Design Approach to separate the concerns in UI, and have them automatically tangled together at runtime. Such separation introduces the single point to maintain, and the runtime weaving enables us to deliver context-aware UI. Furthermore, we apply this concept into distributed environment. This allows us to construct UI in various platforms on multiple client devices from the single concerns description streamed from the server.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "Karel Cemus, Filip Klimes, O. Kratochvil, T. Cerný",
+"citations": 1,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740327},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740327},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Karel Cemus and Filip Klimes and Ondrej Kratochvil and Tomas Cerny},\n\ttitle = {Distributed Multi-Platform Context-Aware User Interface for Information Systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 66,
+"title": "Session details: Volume II: Software design and development, and system software and security: Enterprise application development and design track",
+"doi": "10.1145/3252780",
+"description": "null",
+"venue": "",
+"listofauthors": "T. Cerný",
+"citations": 0,
+"year": 2016,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1145/3252780},\n\turl = {https://doi.org/10.1145%2F3252780},\n\tyear = 2016,\n\tmonth = {apr},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny},\n\ttitle = {Session details: Volume {II}: Software design and development, and system software and security: Enterprise application development and design track}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 67,
+"title": "AOP-Based Approach for Local Data Management in Adaptive Interfaces",
+"doi": "10.1109/ICITCS.2016.7740313",
+"description": "This paper explores context-aware computing and emphasizes on utilizing context for adaptive user interfaces. It proposes an approach for adaptive user interfaces design involving the context of hardware elements of devices on the Android mobile platform. It proposes a concern separating style of aspect-oriented programming, where the main aspect module provides developers with access to the context of device sensors to adapt individual application aspects. Such an approach brings novel mechanisms to design advanced aspects and enable automatic derivation of adaptive user interfaces at runtime.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "Jirí Sebek, T. Cerný",
+"citations": 2,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740313},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740313},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Jiri Sebek and Tomas Cerny},\n\ttitle = {{AOP}-Based Approach for Local Data Management in Adaptive Interfaces}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 69,
+"title": "On security level usage in context-aware role-based access control",
+"doi": "10.1145/2851613.2851664",
+"description": "Huge contemporary trend is adding context awareness into software applications. It allows both better user experience as well as a lot useful features for application owner. Nowadays, there are various approaches enabling particular context awareness but none of them concerns security. We tackle this problem and describe it further in the paper. Our solution extends role based access control with certain context awareness elements. Based on already existing solutions we propose own lightweight, universal solutions, which allows instant enhancement of current RBAC even in existing applications. The uniqueness of our solution is based on using security levels, which are granted to user based on his context. Security levels represents how the users can be trusted and are determined during users login procedure. The levels are used as additional security constrain so to access resources in application user need to have not only right permission granted through roles, but also to have corresponding level.",
+"venue": "SAC",
+"listofauthors": "Michal Trnka, T. Cerný",
+"citations": 22,
+"year": 2016,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1145/2851613.2851664},\n\turl = {https://doi.org/10.1145%2F2851613.2851664},\n\tyear = 2016,\n\tmonth = {apr},\n\tpublisher = {{ACM}},\n\tauthor = {Michal Trnka and Tomas Cerny},\n\ttitle = {On security level usage in context-aware role-based access control}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 70,
+"title": "Business Documentation Derivation from Aspect-driven Enterprise Information Systems",
+"doi": "10.1145/2987386.2987402",
+"description": "Business documentation provides important overview of the system. It lists implemented business operations and their preconditions and post-conditions, as well as the architecture of the domain model. Such information is valuable for domain experts, who are able to review it, validate the conditions, and help to address errors in early phases of development. However, it is challenging to derive this documentation from existing systems as the business rules are tangled into source code. In this paper, we introduce a novel technique to business documentation derivation from aspect-driven enterprise information systems. These systems isolate business rules in a single focal point and we demonstrate its transformation into business documentation. In the combination with code inspection, we deliver reliable and easy to generate documentation significantly simplifying involvement of domain experts into development. Furthermore, we show the transformation of business rules into a formal language verifiable by a checker to validate the feasibility of business operations.",
+"venue": "RACS",
+"listofauthors": "Karel Cemus, T. Cerný",
+"citations": 0,
+"year": 2016,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1145/2987386.2987402},\n\turl = {https://doi.org/10.1145%2F2987386.2987402},\n\tyear = 2016,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Karel Cemus and Tomas Cerny},\n\ttitle = {Business Documentation Derivation from Aspect-driven Enterprise Information Systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 71,
+"title": "Survey on Concern Separation in Service Integration",
+"doi": "10.1007/978-3-662-49192-8_42",
+"description": "Ever-changing business processes in large software systems, integration of heterogeneous data sources as well as the desire for legacy service integration drive software design towards reusable, platform-independent, web-accessible microservices. Such independently deployable services provide an interface for retrieval and data manipulation in machine-readable formats. While this approach brings many advantages from the perspective of service integration aiming to separate data manipulation from business processing, the standard approaches provide only limited structural semantics and constraints provided through the interface. This leads to considerable information restatement and repeated decisions in integrating components, which considerably impacts development and maintenance efforts. Integration component operability becomes highly sensitive to interaction with underlying services, which are possibly composed of other services. The sensitivity is especially apparent in the structural semantics of produced and consumed information that must correlate on both sides of the interaction. This paper surveys service integration from the perspective of separation of concerns. In order to reduce the coupling and information restatement on the integration component side, it suggests introducing multiple communication channels with additional information that apply in the service interaction, extending the integration component's ability to derive service expected information structural semantics, constraints or business rules. Finally, we consider the impact of this new approach from the development and maintenance perspectives.",
+"venue": "SOFSEM",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 6,
+"year": 2016,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "518-531",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2016,\n\tdoi = {10.1007/978-3-662-49192-8_42},\n\turl = {https://doi.org/10.1007%2F978-3-662-49192-8_42},\n\tyear = 2016,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {518--531},\n\tauthor = {Tomas Cerny and Michael J. Donahoo},\n\ttitle = {Survey on Concern Separation in Service Integration}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 72,
+"title": "Towards Shared Security through Distributed Separation of Concerns",
+"doi": "10.1145/2987386.2987394",
+"description": "When considering distributed enterprise applications interacting with data, one can rarely omit its security concerns that must enforce data integrity and prevent users from disallowed actions. Current trends of application design tend to deal with permissions internally in each particular interacting application, although certain knowledge from the consumer application perspective is needed. This unfortunately leads to restated knowledge that fails to correlate in time, once a particular interacting application evolves or changes. This paper, considers how an convenient security sharing should look like in distributed enterprise system. Next, it puts the ideal case next to the context of existing approaches, which it surveys.",
+"venue": "RACS",
+"listofauthors": "T. Cerný, Michal Trnka, M. J. Donahoo",
+"citations": 2,
+"year": 2016,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1145/2987386.2987394},\n\turl = {https://doi.org/10.1145%2F2987386.2987394},\n\tyear = 2016,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Tomas Cerny and Michal Trnka and Michael J. Donahoo},\n\ttitle = {Towards Shared Security through Distributed Separation of Concerns}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 73,
+"title": "Identity Management of Devices in Internet of Things Environment",
+"doi": "10.1109/ICITCS.2016.7740343",
+"description": "Significant interest in internet of things drives both research and industry production these days. A lot of important questions has been solved but some remain opened. One of the essential unresolved issue is the identity management of single devices. This paper proposes solution for management of devices for internet of things. The solution is based on central identity store. Each device has an associated account in the store with corresponding roles. For any communication the device retrieves OAuth 2.0 token and uses it to certify itself in every network connection. The proposed framework creates trusted environment and enables rapid response for any security events.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "Michal Trnka, T. Cerný",
+"citations": 16,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740343},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740343},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Michal Trnka and Tomas Cerny},\n\ttitle = {Identity Management of Devices in Internet of Things Environment}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 74,
+"title": "Context-Aware User Interface Field Classification",
+"doi": "10.1109/ICITCS.2016.7740319",
+"description": "Software applications are designed with a concrete purpose in mind, specified by business owners basing on the individual requirements. The user-system interaction is specified in the analysis phase. This phase specifies inputs, outputs, interaction etc. These elements could be specified separately based on the target platform. The designers know that the mobile clients could have a different application flow than desktop clients. However, this is not a rule and designers often times do not think about the user context nor do they consider the application context. This implies that outputs, inputs and interactions do not change automatically during the software life cycle. In this paper we present techniques that are able to determine whether the user, which is in a particular context, should be required to spend his/her time to fill in fields that are not needed for accomplishing a specific business task. Moreover, these techniques are able to determine whether the fields should display or are not necessary, as well as how the system might interact with the user. Finally, we present a computational architecture that is able to make these types of determinations.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "M. Tomásek, T. Cerný",
+"citations": 0,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740319},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740319},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Martin Tomasek and Tomas Cerny},\n\ttitle = {Context-Aware User Interface Field Classification}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 75,
+"title": "Adaptive Application Structure Design for Java EE Applications",
+"doi": "10.1145/2987386.2987417",
+"description": "Adaptive Application Structure (AAS) is such a structure that adjusts itself based on the current context. It brings benefits to end users, as it adapts to their specific personal needs. While applications themselves are designed in a particular way by developers, each user is using a particular application differently. Unfortunately, development complexities rise, which necessarily reflects in the development and maintenance efforts increase. The main aim is to mitigate the efforts and to introduce a novel approach to design AAS. A framework to design ASS-based applications is considered and evaluated.",
+"venue": "RACS",
+"listofauthors": "Jirí Sebek, T. Cerný, Karel Richta",
+"citations": 1,
+"year": 2016,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1145/2987386.2987417},\n\turl = {https://doi.org/10.1145%2F2987386.2987417},\n\tyear = 2016,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Jiri Sebek and Tomas Cerny and Karel Richta},\n\ttitle = {Adaptive Application Structure Design for Java {EE} Applications}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 76,
+"title": "Authentication and Authorization Rules Sharing for Internet of Things",
+"doi": "10.13052/JSN2445-9739.2017.003",
+"description": "Significant interest in internet of things drives both research and industry production these days. A lot of important questions has been solved but some remain opened. One of the essential unresolved issue is the identity management of particular end devices. Having possibility to share authorization and authentication rules across network between various sensors, applications and users have clear advantages. It reduces duplication of those policies, while ensuring that they are coherent across the board. There are various proposals, methods and frameworks for identity management in normal environment. However, just few of them is usable in internet of things environment and even less have been made directly for the usage in the internet of things devices. This paper proposes solution for management of devices for internet of things. The solution is based on central identity store. Each device has an associated account in the store that any device and application in the network can verify the device’s identity against. The central element does not provide only authentication of the devices, but the devices can be associated with different roles. Those roles can be used for authorization. Case study for the proposed framework is built on top of the current web standards as OpenID Connect, OAuth and JSON Web Token. Also, central identity store is based on well-established open source solution. Journal of Software Networking, 35–52. doi: 10.13052/jsn2445-9739.2017.003 c © 2017 River Publishers. All rights reserved. 36 M. Trnka and T. Cerny The communication scheme is very simple – after the device’s account is established, it retrieves OAuth 2.0 token and uses it to certify itself in every network connection. The token does not only contain authentication information, but also roles assigned to the device. The central element thus creates trusted environment and enables rapid response for any security events.",
+"venue": "",
+"listofauthors": "Michal Trnka, T. Cerný",
+"citations": 4,
+"year": 2016,
+"publisher": "River Publishers",
+"pages": "35-52",
+"volume": "2017",
+"number": "1",
+"bibtex": "@article{2016,\n\tdoi = {10.13052/jsn2445-9739.2017.003},\n\turl = {https://doi.org/10.13052%2Fjsn2445-9739.2017.003},\n\tyear = 2016,\n\tpublisher = {River Publishers},\n\tvolume = {2017},\n\tnumber = {1},\n\tpages = {35--52},\n\tauthor = {Michal Trnka and Tomas Cerny and   and},\n\ttitle = {Authentication and Authorization Rules Sharing for Internet of Things}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 77,
+"title": "On Metadata Extension to Derive Data Presentations with Angular 2",
+"doi": "10.1109/ICITCS.2016.7740358",
+"description": "From the viewpoint of how the World Wide Web and web application development evolves, there is a certain schema of designing web applications. The Robust Server application (backend) handles database management, as well as a broad range of tasks, and the Client application (frontend) provides data for presentation to users and mediating the connection with the server. Contemporary javascript-based frameworks, such as Angular 2 or ReactJS, extend the frontend code volumes. Such development approach has on large with information restatement and this exacerbates maintenance cost. This paper addresses this issue utilizing the Aspect-Oriented Programming concept, demonstrating this approach through javascript framework An- gular 2, and comparing it with the conventional development approach.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "Z. Brabec, T. Cerný, Jirí Sebek",
+"citations": 1,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740358},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740358},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Zdenek Brabec and Tomas Cerny and Jiri Sebek},\n\ttitle = {On Metadata Extension to Derive Data Presentations with Angular 2}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 78,
+"title": "Energy Impact of Web User Interface Technology on Mobile Devices",
+"doi": "10.1109/ICITCS.2016.7740329",
+"description": "Designing and maintaining modern web applications becomes more and more challenging since mobile, battery powered devices widely spread, and perhaps soon playing a major role throughout the everyday interaction with such applications. Application technologies follow this trend and evolve rapidly, but what are the main benefits of using such technologies for the end users aside from a progressive user interface design? It this article we present a simple case study of the impact of various front-end frameworks and application architecture approaches on mobile devices. Specifically, we consider the impact on client energy consumption and performance.",
+"venue": "2016 6th International Conference on IT Convergence and Security (ICITCS)",
+"listofauthors": "Jan Helbich, T. Cerný",
+"citations": 1,
+"year": 2016,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2016,\n\tdoi = {10.1109/icitcs.2016.7740329},\n\turl = {https://doi.org/10.1109%2Ficitcs.2016.7740329},\n\tyear = 2016,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Jan Helbich and Tomas Cerny},\n\ttitle = {Energy Impact of Web User Interface Technology on Mobile Devices}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 79,
+"title": "Separating out Platform-independent Particles of User Interfaces",
+"doi": "10.1007/978-3-662-46578-3_112",
+"description": "User Interfaces (UIs) visualize a wide range of various underlying computer application concerns. Such orthogonal concerns present in even the simplest UIs. The expectation of support for users from various backgrounds, location, different technical skills, etc. serves to increase concern complexity. Nowadays users typically remotely access to applications from a variety of platforms including web, mobile or even standalone clients. Providing platform-specific support for multiple UIs further increases the concern complexity. Such a wide-range of concerns often results in a significant portion of the UI description being restated using platform-specific components, which brings extended development, and maintenance efforts. This paper aims to separate out the platform-independent particles of UI that could be reused across various platforms. Such separation supports reduction of information restatement, development and maintenance effort. The platform-independent particles are provided in a machine-readable format to support their reuse in platform-specific UIs.",
+"venue": "",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 4,
+"year": 2015,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "941-948",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2015,\n\tdoi = {10.1007/978-3-662-46578-3_112},\n\turl = {https://doi.org/10.1007%2F978-3-662-46578-3_112},\n\tyear = 2015,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {941--948},\n\tauthor = {Tomas Cerny and Michael J. Donahoo},\n\ttitle = {Separating out Platform-independent Particles of User Interfaces}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 80,
+"title": "On distributed concern delivery in user interface design",
+"doi": "10.2298/CSIS141202021C",
+"description": "Increasing demands on user interface (UI) usability, adaptability, and \n dynamic behavior drives ever-growing development and maintenance complexity. \n Traditional UI design techniques result in complex descriptions for data \n presentations with significant information restatement. In addition, multiple \n concerns in UI development leads to descriptions that exhibit concern \n tangling, which results in high fragment replication. Concern-separating \n approaches address these issues; however, they fail to maintain the \n separation of concerns for execution tasks like rendering or UI delivery to \n clients. During the rendering process at the server side, the separation \n collapses into entangled concerns that are provided to clients. Such \n client-side entanglement may seem inconsequential since the clients are \n simply displaying what is sent to them; however, such entanglement \n compromises client performance as it results in problems such as replication, \n fragment granularity ill-suited for effective caching, etc. This paper \n considers advantages brought by concern-separation from both perspectives. It \n proposes extension to the aspect-oriented UI design with distributed concern \n delivery (DCD) for client-server applications. Such an extension lessens the \n serverside involvement in UI assembly and reduces the fragment replication in \n provided UI descriptions. The server provides clients with individual UI \n concerns, and they become partially responsible for the UI assembly. This \n change increases client-side concern reuse and extends caching opportunities, \n reducing the volume of transmitted information between client and server to \n improve UI responsiveness and performance. The underlying aspect-oriented UI \n design automates the server-side derivation of concerns related to data \n presentations adapted to runtime context, security, conditions, etc. \n Evaluation of the approach is considered in a case study applying DCD to an \n existing, production web application. Our results demonstrate decreased \n volumes of UI descriptions assembled by the server-side and extended \n client-side caching abilities, reducing required data/fragment transmission, \n which improves UI responsiveness. Furthermore, we evaluate the potential \n benefits of DCD integration implications in selected UI frameworks.",
+"venue": "Comput. Sci. Inf. Syst.",
+"listofauthors": "T. Cerný, Miroslav Macik, M. J. Donahoo, J. Janousek",
+"citations": 18,
+"year": 2015,
+"publisher": "National Library of Serbia",
+"pages": "655-681",
+"volume": "12",
+"number": "2",
+"bibtex": "@article{2015,\n\tdoi = {10.2298/csis141202021c},\n\turl = {https://doi.org/10.2298%2Fcsis141202021c},\n\tyear = 2015,\n\tpublisher = {National Library of Serbia},\n\tvolume = {12},\n\tnumber = {2},\n\tpages = {655--681},\n\tauthor = {Tomas Cerny and Miroslav Macik and Michael Donahoo and Jan Janousek},\n\ttitle = {On distributed concern delivery in user interface design}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 81,
+"title": "On Concern-separation of Data Presentations in User Interfaces",
+"doi": null,
+"description": "null",
+"venue": "",
+"listofauthors": "T. Cerný",
+"citations": 0,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 82,
+"title": "Enterprise information systems: comparison of aspect-driven and MVC-like Approaches",
+"doi": "10.1145/2811411.2811477",
+"description": "Design of an enterprise information system significantly impacts its development and maintenance efforts. The research shows that maintenance consumes about 65--75% of the software development time and about 40--60% of maintenance efforts are devoted to software understanding [2, 9]. This paper compares the Aspect-driven design approach as applied to the three-layered architecture to the MVC-like design approach implemented by many conventional web frameworks. While both approaches strive to avoid information restatement, they differ greatly in the underlying idea; thus, this work compares based on development efficacy and ease of maintenance. We highlight their differences and qualities, such as information cohesion, coupling and restatement, and discuss their maintenance efforts. We also investigate their ease of use, deployments, and provide recommendations on when to use each approach.",
+"venue": "RACS",
+"listofauthors": "Karel Cemus, T. Cerný, Lubos Matl, M. J. Donahoo",
+"citations": 2,
+"year": 2015,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1145/2811411.2811477},\n\turl = {https://doi.org/10.1145%2F2811411.2811477},\n\tyear = 2015,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Karel Cemus and Tomas Cerny and Lubos Matl and Michael J. Donahoo},\n\ttitle = {Enterprise information systems}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 83,
+"title": "Automated Business Rules Transformation into a Persistence Layer",
+"doi": "10.1016/j.procs.2015.08.391",
+"description": "Abstract Enterprise Information Systems maintain data with respect to various business processes. These processes consist of business operations restricted by business rules expressed as preconditions and post-conditions. Each rule must be considered and enforced throughout the system, from user interface to persistence storage. Such rule evaluation in multiple contexts results in both significant rule restatement and high maintenance complexity, as there is no single focal point for capturing and reusing these rules. In this paper, we apply the Aspect-Oriented Design Approach to the persistence layer to simplify business rules management, enforce business rules throughout the system and consequently decrease development and maintenance efforts. Our preliminary results show that it is possible to define business rules in a single place and then apply them automatically in a persistence layer. We retrieve data sets restricted by given operation post-conditions with respect to current execution context without any manual rule restatement. This paper provides a small case study emphasizing the benefits and future challenges.",
+"venue": "SCSE",
+"listofauthors": "Karel Cemus, T. Cerný, M. J. Donahoo",
+"citations": 14,
+"year": 2015,
+"publisher": "Elsevier BV",
+"pages": "312-318",
+"volume": "62",
+"number": null,
+"bibtex": "@article{2015,\n\tdoi = {10.1016/j.procs.2015.08.391},\n\turl = {https://doi.org/10.1016%2Fj.procs.2015.08.391},\n\tyear = 2015,\n\tpublisher = {Elsevier {BV}},\n\tvolume = {62},\n\tpages = {312--318},\n\tauthor = {Karel Cemus and Tomas Cerny and Michael J. Donahoo},\n\ttitle = {Automated Business Rules Transformation into a Persistence Layer}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 84,
+"title": "On web services UI in user interface generation in standalone applications",
+"doi": "10.1145/2811411.2811537",
+"description": "Every production-level software application is like a living organism that changes and evolves throughout its lifecycle. Most of the changes related to application data impact the User Interface (UI). Usually, the change propagation to UI relates to input validations, data consistency as well as the UI behavior. In the case that UI involves data transfer from web services then the provided data format must correlate. This paper presents an approach that involves Model-Driven Development (MDD) to generate platform-independent definitions and provides these definitions to clients through web services. These definitions are generated based on templates, data types, annotations, security and application context using code-inspection. This approach decreases the effort involved in the development phase as well as in maintenance. Next, it prevents data inconsistencies and it makes it possible to specify the client's UI at runtime by the server. We consider the message format, input validation rules, type safety and then evaluate the proposed solution through a prototype and present its abilities, advantages and limitations from the UI perspective. Furthermore, we perform usability tests to determine suitability of the proposed approach for practical usage.",
+"venue": "RACS",
+"listofauthors": "M. Tomásek, T. Cerný",
+"citations": 2,
+"year": 2015,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1145/2811411.2811537},\n\turl = {https://doi.org/10.1145%2F2811411.2811537},\n\tyear = 2015,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Martin Tomasek and Tomas Cerny},\n\ttitle = {On web services {UI} in user interface generation in standalone applications}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 85,
+"title": "On Aspect-Oriented Programming in Adaptive User Interfaces",
+"doi": "10.1109/ICISSEC.2015.7371024",
+"description": "Adaptive User Interfaces (AUIs) provide better usability, user satisfaction as well as personalized experience. AUIs bring broad benefits to end users, but their construction introduces numerous difficulties caused by extended development and maintenance efforts. One option to deal with the above problems is to generate various User Interface (UI) descriptions from a model or existing code. This paper considers the Aspect-Oriented Programming (AOP)-based approach for the AUI design. Integrations of the approach with contemporary AUI frameworks, such as XML User Interface Language (XUL), User interface protocol (UIP) and JavaServer Faces (JSF) are compared from the perspective of the development and maintenance on a case study involving context- aware (CA) application. The outcome of this paper presents advantages, disadvantages and limitations of the particular frameworks for construction of AUIs.",
+"venue": "2015 2nd International Conference on Information Science and Security (ICISS)",
+"listofauthors": "Jirí Sebek, Michal Trnka, T. Cerný",
+"citations": 2,
+"year": 2015,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1109/icissec.2015.7371024},\n\turl = {https://doi.org/10.1109%2Ficissec.2015.7371024},\n\tyear = 2015,\n\tmonth = {dec},\n\tpublisher = {{IEEE}},\n\tauthor = {Jiri Sebek and Michal Trnka and Tomas Cerny},\n\ttitle = {On Aspect-Oriented Programming in Adaptive User Interfaces}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 86,
+"title": "Evaluation of approaches to business rules maintenance in enterprise information systems",
+"doi": "10.1145/2811411.2811476",
+"description": "Enterprise information systems maintain a significant number of business rules defining complex business processes and data constraints. Conventional frameworks distribute such rules over multiple layers, making consistent rule location discovery difficult. This lack of rule centrality results in complicated and even error-prone development and maintenance as future application changes may lead to inconsistencies. In this paper, we consider these aspects of business rule definitions in various software design approaches from the software metrics perspective. We research several design approaches in a case study, compare their qualities regarding business rule definitions/maintenance, and demonstrate the difficulties with these approaches. The results of the study indicate that conventional approaches are insufficient in this area. Future design approaches that involve separation of concerns provide mechanisms to address the inefficiency.",
+"venue": "RACS",
+"listofauthors": "Karel Cemus, T. Cerný, M. J. Donahoo",
+"citations": 4,
+"year": 2015,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1145/2811411.2811476},\n\turl = {https://doi.org/10.1145%2F2811411.2811476},\n\tyear = 2015,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Karel Cemus and Tomas Cerny and Michael J. Donahoo},\n\ttitle = {Evaluation of approaches to business rules maintenance in enterprise information systems}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 87,
+"title": "Evaluation of Separated Concerns in Web-based Delivery of User Interfaces",
+"doi": "10.1007/978-3-662-46578-3_111",
+"description": "User Interfaces (UI) play a significant role in contemporary web applications. Responsiveness and performance are influenced by the UI design, complexity of its features, the amount of transmitted information, as well as by network conditions. While traditional web delivery approaches separate out presentation of UI in the form of Cascading Style Sheets (CSS), a large number of presentation concerns are left tangled together in the structural description used for data presentations. Such tangling impedes concern reuse, which impacts the description size as well as caching options. This paper evaluates separation of UI concerns from the perspective of UI delivery. Concerns are distributed to clients through various resources/channels, which impacts the UI composition at the client-side. This decreases the volume of transmitted information and extends caching options. The efficacy is demonstrated through experiments.",
+"venue": "",
+"listofauthors": "T. Cerný, Lubos Matl, Karel Cemus, M. J. Donahoo",
+"citations": 5,
+"year": 2015,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "933-940",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2015,\n\tdoi = {10.1007/978-3-662-46578-3_111},\n\turl = {https://doi.org/10.1007%2F978-3-662-46578-3_111},\n\tyear = 2015,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {933--940},\n\tauthor = {Tomas Cerny and Lubos Matl and Karel Cemus and Michael J. Donahoo},\n\ttitle = {Evaluation of Separated Concerns in Web-based Delivery of User Interfaces}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 88,
+"title": "Proceedings of the 2015 Conference on research in adaptive and convergent systems",
+"doi": "10.1145/2811411",
+"description": "With the expansion of both the Internet and the advanced information technology development profession, reliable and convergent computing has attracted increasing interest in both academia and industry. To cope with this important problem, the Research in Adaptive and Convergent Systems (RACS) provides a forum for exchanging highly original ideas about an important class of computing systems. The RACS aims primarily at researchers who have experience in reliable and convergent computing systems and are engaged in the design and implementation of new computing applications. Each year RACS brings together engineers and scientists from diverse communities with interests in practical computing technologies and creates an environment for them to discuss and report experimental results, novel designs, work-in-progress, experiences, case studies, and trend-setting ideas.",
+"venue": "RACS",
+"listofauthors": "E. Nadimi, T. Cerný, Sung-Ryul Kim, W. Wang",
+"citations": 2,
+"year": 2015,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@misc{2015,\n\tdoi = {10.1145/2811411},\n\turl = {https://doi.org/10.1145%2F2811411},\n\tyear = 2015,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\ttitle = {Proceedings of the 2015 Conference on research in adaptive and convergent systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 89,
+"title": "Context-aware Role-based Access Control Using Security Levels",
+"doi": "10.1145/2811411.2811498",
+"description": "Security of software applications is a very challenging and extensive topic. to keep up with the trend of personalized context aware applications the security design must adapt to it. this paper presents context awareness into the role based access control. it will describe already existing solutions, point out their key ideas and propose our rbac lightweight extension. it is universal and allows instant enhancement of current rbac even in current applications. the proposed solution is based on security levels which are assigned to users based on context. security levels represent how the users can be trusted and they are determined during the login procedure. the levels are used as additional security constraints to access resources. in application, the user needs to possesses not only the right permission granted through rbac roles, but also have a corresponding level.",
+"venue": "RACS",
+"listofauthors": "Michal Trnka, T. Cerný",
+"citations": 2,
+"year": 2015,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1145/2811411.2811498},\n\turl = {https://doi.org/10.1145%2F2811411.2811498},\n\tyear = 2015,\n\tmonth = {oct},\n\tpublisher = {{ACM}},\n\tauthor = {Michal Trnka and Tomas Cerny},\n\ttitle = {Context-aware Role-based Access Control Using Security Levels}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 90,
+"title": "On separation of platform-independent particles in user interfaces",
+"doi": "10.1007/s10586-015-0471-7",
+"description": "The complexity of user interface (UI) design grows quickly with the number of application concerns. Such complexity compounds with additional requirement of contextual-awareness (i.e., adapt to user location, skill level, etc.) and support of heterogeneous devices and platforms (e.g., web, mobile app). Implementation support of such a wide-range of orthogonal concerns often results in restatement of a significant portion of the UI description using platform-specific components. Replication requires repeated implementation decision, greatly increasing development costs since each version/context variant may need separate development. Naturally, such replication also produces error prone maintenance because code updates must correlate among all replicas. Using separation of concerns, the application can be decomposed into fine-grain fragments, which we call particles, some of which are platform independent and others are not. Using this decomposition, this paper addresses the above inefficiency by dynamically composing particles at runtime that match user demands, context, and target platform.",
+"venue": "Cluster Computing",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 20,
+"year": 2015,
+"publisher": "Springer Science and Business Media LLC",
+"pages": "1215-1228",
+"volume": "18",
+"number": "3",
+"bibtex": "@article{2015,\n\tdoi = {10.1007/s10586-015-0471-7},\n\turl = {https://doi.org/10.1007%2Fs10586-015-0471-7},\n\tyear = 2015,\n\tmonth = {jul},\n\tpublisher = {Springer Science and Business Media {LLC}},\n\tvolume = {18},\n\tnumber = {3},\n\tpages = {1215--1228},\n\tauthor = {Tomas Cerny and Michael J. Donahoo},\n\ttitle = {On separation of platform-independent particles in user interfaces}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 91,
+"title": "Impact of Remote User Interface Design and Delivery on Energy Demand",
+"doi": "10.1109/ICISSEC.2015.7371005",
+"description": "Client-side User Interface (UI) for web applications clearly plays a critical role in user performance and efficiency. Growing user expectations drive UI design to greater functionality with ever increasing expectations for rich and continuous interactivity. Such increases require greater and greater computational resources. At the same time, web applications are increasingly accessed through mobile, battery-powered devices, such as notebooks, tablets, smartphones, and even watches. In effect, users are simultaneously increasing dependence on battery power and the pace of battery discharge with demanding applications. While UI design often considers factors such as usability, bandwidth consumption, etc., little consideration is given to the impact rendering and delivery design have on energy consumption. While we may expect novel technologies to expand battery capacity, the demands consistently outpace improvements. Careful consideration of UI design strategy may reduce the energy demands placed to the user's device. This paper presents a study considering existing UI design and delivery strategies and evaluates their impact on energy consumption.",
+"venue": "2015 2nd International Conference on Information Science and Security (ICISS)",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 2,
+"year": 2015,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1109/icissec.2015.7371005},\n\turl = {https://doi.org/10.1109%2Ficissec.2015.7371005},\n\tyear = 2015,\n\tmonth = {dec},\n\tpublisher = {{IEEE}},\n\tauthor = {Tomas Cerny and Michael J. Donahoo},\n\ttitle = {Impact of Remote User Interface Design and Delivery on Energy Demand}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 92,
+"title": "Effective manycast messaging for Kademlia network",
+"doi": "10.1145/2695664.2695903",
+"description": "Peer-to-peer (P2P) communication plays an ever-expanding role in critical applications with rapidly growing user bases. In addition to well-known P2P systems for data sharing (e.g., BitTorrent), P2P provides the core mechanisms in VoIP (e.g., Skype), distributed currency (e.g., BitCoin), etc. There are many communication commonalities in P2P applications; consequently, we can factor these communication primitives into overlay services. Such services greatly simplify P2P application development and even allow P2P infrastructures to host multiple applications, instead of each having its own network. Note well that such services must be both self-scaling and robust to meet the needs of large, ad-hoc user networks. One such service is Distributed Hash Table (DHT) providing a dictionary-like location service, useful in many types of P2P applications. Building on the DHT primitives for search and store, we can add even more powerful group communication services to increase network capabilities with nodes-group formation and messaging (manycast, anycast, multicast, etc.). We begin by providing a survey of DHT networks and their group communication extensions. Next, we propose extensions for the Kademlia DHT to allow group communication and compare its properties with existing group communication services in the Pastry network. We place particular on manycast as it is a more generalized form of communication that has received little attention from the research community. Using these empirical results, we show which network is best suited to particular communication situations.",
+"venue": "SAC",
+"listofauthors": "Lubos Matl, T. Cerný, M. J. Donahoo",
+"citations": 1,
+"year": 2015,
+"publisher": "ACM",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2015,\n\tdoi = {10.1145/2695664.2695903},\n\turl = {https://doi.org/10.1145%2F2695664.2695903},\n\tyear = 2015,\n\tmonth = {apr},\n\tpublisher = {{ACM}},\n\tauthor = {Lubos Matl and Tomas Cerny and Michael J. Donahoo},\n\ttitle = {Effective manycast messaging for Kademlia network}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 93,
+"title": "Aspect-Driven Design of Information Systems",
+"doi": "10.1007/978-3-319-04298-5_16",
+"description": "Contemporary enterprise web applications deal with a large stack of different kinds of concerns involving business rules, security policies, cross-cutting configuration, etc. At the same time, increasing demands on user interface complexity make designers to consider the above concerns in the presentation. To locate a concern knowledge, we try to identify an appropriate system component with the concern definition. Unfortunately, this is not always possible, since there exist concerns cross-cutting multiple components. Thus to capture the entire knowledge we need to locate multiple components. In addition to it, often, we must restate the knowledge in the user interface because of technological incompatibility between the knowledge source and the user interface language. Such design suffers from tangled and hard to read code, due to the cross-cutting concerns and also from restated information and duplicated knowledge. This leads to a product that is hard to maintain, a small change becomes expensive, error-prone and tedious due to the necessity of manual changes in multiple locations.",
+"venue": "SOFSEM",
+"listofauthors": "Karel Cemus, T. Cerný",
+"citations": 17,
+"year": 2014,
+"publisher": "Springer International Publishing",
+"pages": "174-186",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2014,\n\tdoi = {10.1007/978-3-319-04298-5_16},\n\turl = {https://doi.org/10.1007%2F978-3-319-04298-5_16},\n\tyear = 2014,\n\tpublisher = {Springer International Publishing},\n\tpages = {174--186},\n\tauthor = {Karel Cemus and Tomas Cerny},\n\ttitle = {Aspect-Driven Design of Information Systems}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 94,
+"title": "Proceedings of the 2014 Conference on Research in Adaptive and Convergent Systems, RACS 2014, Towson, Maryland, USA, October 5-8, 2014",
+"doi": "10.1145/2663761",
+"description": "With the expansion of both the Internet and the advanced information technology development profession, adaptive and convergent computing is of growing interest in both academia and industry. To cope with this important problem, the Research in Adaptive and Convergent Systems (RACS) provides a forum for exchanging highly original ideas about adaptive and convergent computing systems. The RACS aims primarily at researchers who have experience in adaptive and convergent computing systems and are engaged in the design and implementation of new computing applications. Each year RACS brings together engineers and scientists from diverse communities with interests in practical adaptive and convergent computing technologies and creates an environment for them to discuss and report experimental results, novel designs, work-in-progress, experiences, case studies, and trend-setting ideas.",
+"venue": "RACS",
+"listofauthors": "E. Nadimi, T. Cerný, Sung-Ryul Kim, W. Wang",
+"citations": 1,
+"year": 2014,
+"publisher": "ACM Press",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@misc{2014,\n\tdoi = {10.1145/2663761},\n\turl = {https://doi.org/10.1145%2F2663761},\n\tyear = 2014,\n\tpublisher = {{ACM} Press},\n\ttitle = {Proceedings of the 2014 Conference on Research in Adaptive and Convergent Systems - {RACS} {\\textquotesingle}14}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 95,
+"title": "Efficient description and cache performance in Aspect-Oriented user interface design",
+"doi": "10.15439/2014F244",
+"description": "Increasing demands on web user interface (UI) usability, adaptability, and dynamic behavior drives ever growing development and maintenance complexity. Conventional design approaches scale poorly with such rising complexity, resulting in rapidly increasing costs. Much of the complexity centers around data presentation and processing. Recent work greatly reduces such data complexity through the application of Aspect-Oriented UI (AOUI) design, which separates various UI concerns; however, rendering in conventional and even AOUI approaches fails to maintain this separation, often resulting in high repetitions of concern fragments due to tangling. Even worse, mixing of dynamic and immutable components greatly limits caching efficacy as each have differing lifetimes. We extend AOUI design to push down concern separation to rendering, which reduces description size, through repetition reduction, and enables separate caching of individual concerns. Our results show considerable size reduction of UI descriptions for data presentations, faster load times and extended caching capabilities.",
+"venue": "2014 Federated Conference on Computer Science and Information Systems",
+"listofauthors": "T. Cerný, Miroslav Macik, M. J. Donahoo, J. Janousek",
+"citations": 6,
+"year": 2014,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2014,\n\tdoi = {10.15439/2014f244},\n\turl = {https://doi.org/10.15439%2F2014f244},\n\tyear = 2014,\n\tmonth = {sep},\n\tpublisher = {{IEEE}},\n\tauthor = {Tom{\\'{a}}{\\v{s}} {\\v{C}}ern{\\'{y}} and Miroslav Macik and Michael J. Donahoo and Jan Janousek},\n\ttitle = {Efficient Description and Cache Performance in Aspect-Oriented User Interface Design}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 96,
+"title": "Platform-Aware Rich-Form Generation for Adaptive Systems through Code-Inspection",
+"doi": "10.1007/978-3-642-39062-3_55",
+"description": "This paper introduces a framework for adaptive user interface (UI) development. Our framework facilitates development and maintenance efforts through code inspection. Information already captured elsewhere is reused in the UI rather than restated. In our approach, inspected information is transformed in multiple stages through an aspect-oriented approach. As each stage may be influenced at runtime, our approach allows systems to be built with context-aware adaptive UIs. In addition, the selection of UI elements and their layout is generated using optimal metrics. The output of our approach can be influenced by the target platform. Our approach to UI is shown in detail in a case study.",
+"venue": "SouthCHI",
+"listofauthors": "Miroslav Macik, T. Cerný, Jindrich Basek, P. Slavík",
+"citations": 5,
+"year": 2013,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "768-784",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2013,\n\tdoi = {10.1007/978-3-642-39062-3_55},\n\turl = {https://doi.org/10.1007%2F978-3-642-39062-3_55},\n\tyear = 2013,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {768--784},\n\tauthor = {Miroslav Macik and Tomas Cerny and Jindrich Basek and Pavel Slavik},\n\ttitle = {Platform-Aware Rich-Form Generation for Adaptive Systems through Code-Inspection}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 97,
+"title": "Towards effective adaptive user interfaces design",
+"doi": "10.1145/2513228.2513278",
+"description": "The increasing use of Web-based applications continues to broaden the user groups of enterprise applications at large. The importance of providing easy-to-use user interfaces (UIs) that conform to each user's specific preferences, such as different skill levels, capabilities and physical locations has, therefore, been significantly increasing. Unfortunately, designing a single UI satisfying all end users remains challenging. To address this issue, researchers and developer are looking to Adaptive User Interfaces (AUIs) that aim to provide end users with more personalized user interaction experiences. However, very few production system provide such malleable interfaces due to the excessive cost for the development and maintenance.\n In this paper, we propose a technique that provides AUIs for production enterprise systems while reducing development and maintenance efforts to a level comparable with a single UI development, called Rich Entity Aspect/Audit Design (READ). READ complies with application development standards used in industry to support an easy transition from design to production systems. We conclude by evaluating our approach along with a case study that demonstrates reduction in development and maintenance efforts while preserving performance.",
+"venue": "RACS",
+"listofauthors": "T. Cerný, M. J. Donahoo, Eunjee Song",
+"citations": 14,
+"year": 2013,
+"publisher": "ACM Press",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2013,\n\tdoi = {10.1145/2513228.2513278},\n\turl = {https://doi.org/10.1145%2F2513228.2513278},\n\tyear = 2013,\n\tpublisher = {{ACM} Press},\n\tauthor = {Tomas Cerny and Michael J. Donahoo and Eunjee Song},\n\ttitle = {Towards effective adaptive user interfaces design}\n}",
+"authorsSemantic": [
+9,
+1,
+2
+]
+},
+{
+"id": 98,
+"title": "Context-sensitive, cross-platform user interface generation",
+"doi": "10.1007/s12193-013-0141-0",
+"description": "User interfaces (UI) of software applications play a crucial part in communication with users. Attractive UIs often lead to market success, and thus there is a significant incentive to provide users with malleable UIs that can adapt as much as possible to their needs. However, such UIs require significant development and maintenance efforts. In this paper, we describe a context model based on ability-based design that is well suited to the purposes of automated UI generation. We then introduce a platform that delivers adaptive UIs across various platforms. We use runtime combinatoric optimisation to support usability and to generate context-sensitive UIs. Since the development and maintenance of such UIs can be complex, our platform integrates a module for code-inspection for data-oriented applications to reduce these efforts. It also utilises a visual editor to simplify manual UI design.",
+"venue": "Journal on Multimodal User Interfaces",
+"listofauthors": "Miroslav Macik, T. Cerný, P. Slavík",
+"citations": 27,
+"year": 2014,
+"publisher": "Springer Science and Business Media LLC",
+"pages": "217-229",
+"volume": "8",
+"number": "2",
+"bibtex": "@article{2014,\n\tdoi = {10.1007/s12193-013-0141-0},\n\turl = {https://doi.org/10.1007%2Fs12193-013-0141-0},\n\tyear = 2014,\n\tmonth = {feb},\n\tpublisher = {Springer Science and Business Media {LLC}},\n\tvolume = {8},\n\tnumber = {2},\n\tpages = {217--229},\n\tauthor = {Miroslav Macik and Tomas Cerny and Pavel Slavik},\n\ttitle = {Context-sensitive, cross-platform user interface generation}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 104,
+"title": "Cooperative web cache",
+"doi": null,
+"description": "Internet web service delivery expectations grow every year but the underlying technology does not scale naturally to deal with greater demand for services. A simple service, once becoming popular, requires the service provider to invest in powerful hardware in order to deal with sudden spike in client interest. A standard solution involves employing a content distribution network resulting in spiralling costs with increasing load. In this paper we argue it is possible to scale web service delivery more naturally assuming clients take part in content replication. We propose a design and a prototype implementation of a P2P overlay network that shows optimistic preliminary results. An extensive simulation is provided in order to establish performance possibilities of such a network with no extra related costs or demands on hardware.",
+"venue": "2011 18th International Conference on Systems, Signals and Image Processing",
+"listofauthors": "T. Cerný, Petr Praus, Slávka Jaromerská, Lubos Matl, J. Donahoo",
+"citations": 3,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 99,
+"title": "Aspect-driven, data-reflective and context-aware user interfaces design",
+"doi": "10.1145/2577554.2577561",
+"description": "The increasing use of Web-based applications continues to broaden the user groups of enterprise applications at large. Since ordinary users often equate the quality of user interface (UI) with the quality of the entire application, the importance of providing easy-to-use UIs has been significantly increasing. Unfortunately, designing a single UI satisfying all end users remains challenging. To address this issue, researchers and developers are looking to Context-aware/Adaptive UIs (CUIs) that aim to provide end users with more personalized user interaction experiences. Although multiple proposals have been made, very few production systems provide such malleable interfaces due to the excessive cost of development and maintenance.\n In this paper, we propose a technique that aims to reduce development and maintenance efforts of CUI to a level comparable with a single UI. Unlike most of the existing CUI approaches, our technique does not involve an external UI model. Instead, it aims to reflect runtime-information and structures already captured in the application, while extending them to provide an appropriate CUI. With this technique, developers do not design forms or tables directly for each page or panel. Instead they design generic and reusable transformation rules capable of presenting application data instances in the UI while considering the runtime context. To demonstrate our technique and its impact on CUI development and maintenance, we provide a case study. Moreover, we present our experience from its application to an existing production-level enterprise application, with high demands on performance.",
+"venue": "SIAP",
+"listofauthors": "T. Cerný, Karel Cemus, M. J. Donahoo, Eunjee Song",
+"citations": 33,
+"year": 2013,
+"publisher": "Association for Computing Machinery (ACM)",
+"pages": "53-66",
+"volume": "13",
+"number": "4",
+"bibtex": "@article{2013,\n\tdoi = {10.1145/2577554.2577561},\n\turl = {https://doi.org/10.1145%2F2577554.2577561},\n\tyear = 2013,\n\tmonth = {dec},\n\tpublisher = {Association for Computing Machinery ({ACM})},\n\tvolume = {13},\n\tnumber = {4},\n\tpages = {53--66},\n\tauthor = {Tomas Cerny and Karel Cemus and Michael J. Donahoo and Eunjee Song},\n\ttitle = {Aspect-driven, data-reflective and context-aware user interfaces design}\n}",
+"authorsSemantic": [
+9,
+1,
+2
+]
+},
+{
+"id": 100,
+"title": "Towards a Smart, Self-scaling Cooperative Web Cache",
+"doi": "10.1007/978-3-642-27660-6_36",
+"description": "The traditional client/server architecture for web service delivery fails to naturally scale. This results in growing costs to the service provider for powerful hardware or extensive use of Content Distribution Networks. A P2P overlay network provides inherent scalability with multiple benefits to both clients and servers. In this paper, we provide analysis, design and prototype implementation of Cooperative Web Cache, which allows us to scale web service delivery and cope with demand spikes by employing clients in content replication. To demonstrate performance capabilities, we provide a prototype emulation for both client and server.",
+"venue": "SOFSEM",
+"listofauthors": "T. Cerný, Petr Praus, Slávka Jaromerská, Lubos Matl, M. J. Donahoo",
+"citations": 4,
+"year": 2012,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "443-455",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2012,\n\tdoi = {10.1007/978-3-642-27660-6_36},\n\turl = {https://doi.org/10.1007%2F978-3-642-27660-6_36},\n\tyear = 2012,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {443--455},\n\tauthor = {Tom{\\'{a}}{\\v{s}} {\\v{C}}ern{\\'{y}} and Petr Praus and Sl{\\'{a}}vka Jarom{\\v{e}}{\\v{r}}sk{\\'{a}} and Lubo{\\v{s}} Matl and Michael J. Donahoo},\n\ttitle = {Towards a Smart, Self-scaling Cooperative Web Cache}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 101,
+"title": "Impact of user interface generation on maintenance",
+"doi": "10.1109/CSAE.2012.6272847",
+"description": "User interface development and maintenance is one of the most time consuming parts of software application development. User interfaces provide numerous graphical visualizations of user data, these are often influenced by multiple factors such as available interface elements, data constraints, layouts, user operating devices or user rights. The complexity of the development and maintenance raises from duplicated and restated information. Duplication occurs multiple times in the application, for example data model already contains data constraints and these are restated in the interface. Not only information but also decisions are duplicated when an interface element is selected and bound to a particular data field. Machine driven code-inspection and its transformation to user interface brings the way to address complex efforts related to user interface. In this paper we present code-inspection approach to automate user interface development and maintenance, we also provide a case study that compares the approach with manual development.",
+"venue": "2012 IEEE International Conference on Computer Science and Automation Engineering (CSAE)",
+"listofauthors": "T. Cerný, V. Chalupa, M. J. Donahoo",
+"citations": 2,
+"year": 2012,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2012,\n\tdoi = {10.1109/csae.2012.6272847},\n\turl = {https://doi.org/10.1109%2Fcsae.2012.6272847},\n\tyear = 2012,\n\tmonth = {may},\n\tpublisher = {{IEEE}},\n\tauthor = {Tomas Cerny and Vaclav Chalupa and Michael J. Donahoo},\n\ttitle = {Impact of user interface generation on maintenance}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 102,
+"title": "ELISA: Extensible Layer for Internet Services and Applications",
+"doi": "10.1007/978-1-4614-7540-8_24",
+"description": "Contemporary P2P services and applications often design and implement the entire system from the base ground or builds on low-level frameworks. This leads to significant development and maintenance efforts and often reinvention of the wheel. In this chapter we propose extensible layer that does not expose low-level implementation details to client application developers, while providing them with well-known services and communication mechanisms built on efficient and scalable substrates. Analysis and design of architecture for this extensible layer are described. Special attention is given to security concerns and manycast communication approach. Our preliminary implementation is emulated and evaluated to establish functional and performance possibilities of the prototype.",
+"venue": "ISD",
+"listofauthors": "Lubos Matl, V. Kloucek, Viktor B. Bohdal, Jan Kubr, T. Cerný",
+"citations": 1,
+"year": 2013,
+"publisher": "Springer US",
+"pages": "309-321",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2013,\n\tdoi = {10.1007/978-1-4614-7540-8_24},\n\turl = {https://doi.org/10.1007%2F978-1-4614-7540-8_24},\n\tyear = 2013,\n\tpublisher = {Springer {US}},\n\tpages = {309--321},\n\tauthor = {Lubos Matl and Vladimir Kloucek and Viktor B. Bohdal and Jan Kubr and Tomas Cerny},\n\ttitle = {{ELISA}: Extensible Layer for Internet Services and Applications}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 103,
+"title": "Towards Smart User Interface Design",
+"doi": "10.1109/ICISA.2012.6220929",
+"description": "User interface development and maintenance presents a burden for many developers. UI development approaches often restate information already captured in the application model such as entity attributes, validation, security, etc. Changes in application model often require many subsequent changes to the UI. Such duplication creates additional maintenance requirements for synchronization (at a minimum) and often is a source for errors (i.e., when model and UI disagree). Adding to the difficulties of creation and maintenance, typical UI implementations often tangle multiple concerns together such as presentation, validation, layout, security, etc. In this paper, we provide an approach that reduces information duplication and untangles mixed concerns. The capability of runtime UI generation can render user-specific UI, reduce conditional evaluation, and integrate third party security frameworks. To evaluate our approach, we provide a case study that demonstrates reduction of maintenance efforts, separation of concerns and performance of runtime UI generation.",
+"venue": "2012 International Conference on Information Science and Applications",
+"listofauthors": "T. Cerný, V. Chalupa, M. J. Donahoo",
+"citations": 6,
+"year": 2012,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2012,\n\tdoi = {10.1109/icisa.2012.6220929},\n\turl = {https://doi.org/10.1109%2Ficisa.2012.6220929},\n\tyear = 2012,\n\tmonth = {may},\n\tpublisher = {{IEEE}},\n\tauthor = {Tomas Cerny and Vaclav Chalupa and Michael J. Donahoo},\n\ttitle = {Towards Smart User Interface Design}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 105,
+"title": "How to reduce costs of business logic maintenance",
+"doi": "10.1109/CSAE.2011.5953174",
+"description": "Three tier enterprise applications introduce multiple challenges for software engineers. Although we can divide the application into three tiers, we still need to design properly each tier internally to achieve multiple design qualities. The middle business tier captures logic in which we associate objects, validate business rules, etc. Often multiple cross-cutting concerns are mixed in the services which results in bloated, highly coupled design with very low cohesion. In this paper we present a case study that we develop based on our four year experience with enterprise application that struggled from multiple weak design decisions. We emphasize multiple aspects that should be decoupled from the rest of the services which increase service cohesion and results in better readability, maintenance, testability, reuse and error-avoidance. Our “best practices” suggestions for business tier are generally applicable and allow the designer to separate service concerns into multiple units allowing to achieve the mentioned quality attributes.",
+"venue": "2011 IEEE International Conference on Computer Science and Automation Engineering",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 11,
+"year": 2011,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2011,\n\tdoi = {10.1109/csae.2011.5953174},\n\turl = {https://doi.org/10.1109%2Fcsae.2011.5953174},\n\tyear = 2011,\n\tmonth = {jun},\n\tpublisher = {{IEEE}},\n\tauthor = {Tomas Cerny and Michael J. Donahoo},\n\ttitle = {How to reduce costs of business logic maintenance}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 106,
+"title": "UML-based enhanced rich form generation",
+"doi": "10.1145/2103380.2103420",
+"description": "The Model Driven Development (MDD) has provided a new way of engineering today's rapidly changing requirements into the implementation. However, the development of the user interface (UI) part of an application has not benefited much from MDD although today's UIs are complex software components and play an essential role in the usability of an application. It is a common practice that developers create view forms manually by referring to entity beans to determine their content. However, such kind of manual creation is very error-prone and thus makes the system maintenance difficult. One promise in MDD is that we can generate code from UML models, but existing design models in MDD does not capture enough information that are required to generate desired UI fragments. This paper presents our approach addressing these issues. The approach makes it possible to generate complex UIs, rich view forms, that fully satisfy both designers and end-users and to enforce system access control.",
+"venue": "RACS",
+"listofauthors": "T. Cerný, Eunjee Song",
+"citations": 7,
+"year": 2011,
+"publisher": "ACM Press",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2011,\n\tdoi = {10.1145/2103380.2103420},\n\turl = {https://doi.org/10.1145%2F2103380.2103420},\n\tyear = 2011,\n\tpublisher = {{ACM} Press},\n\tauthor = {Tomas Cerny and Eunjee Song},\n\ttitle = {{UML}-based enhanced rich form generation}\n}",
+"authorsSemantic": [
+9,
+1
+]
+},
+{
+"id": 107,
+"title": "Competitive and Collaborative Approach Towards a More Effective Education in Computer Science",
+"doi": "10.30935/CEDTECH/6050",
+"description": "To provide computer scientists with good materials and interesting topics in a class does not necessarily mean that their education is of a high quality, students need to be motivated and evolve skills needed in a real-life employment. Social skills, teamwork, collaboration and competition are valuable aspects they should know in other to become professionals. This paper presents a study with intention to improve education of computer science students in employment-like environments. The study utilizes experience with competitive and collaborative learning in education and Programming Olympiads. Multiple methodological aspects are applied and discussed with regard to students’ evaluation. The results show increased student motivation and interest in the course, which produces larger workload in the class.",
+"venue": "",
+"listofauthors": "T. Cerný, Bozena Mannová",
+"citations": 10,
+"year": 2011,
+"publisher": "Bastas Publications",
+"pages": null,
+"volume": "2",
+"number": "2",
+"bibtex": "@article{2011,\n\tdoi = {10.30935/cedtech/6050},\n\turl = {https://doi.org/10.30935%2Fcedtech%2F6050},\n\tyear = 2011,\n\tmonth = {jun},\n\tpublisher = {Bastas Publications},\n\tvolume = {2},\n\tnumber = {2},\n\tauthor = {Tomas Cerny and Bozena Mannova},\n\ttitle = {Competitive and Collaborative Approach Towards a More Effective Education in Computer Science}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 108,
+"title": "SScAC: Towards a Framework for Small-Scale Software Architectures Comparison",
+"doi": "10.1007/978-3-642-18381-2_40",
+"description": "We present a framework for small-scale software architecture comparison (SScAC). Although a considerable chunk of software architectures are developed in small teams, not much related work exists on this topic. The proposed framework introduces a method to formalize these comparisons and aims to be simple enough to be used in small-scale projects at the same time. Still we believe it is of sufficient complexity to support comparisons that take into account different aspects of solved problem. The main purpose of the framework is to ease certain architectural choices by giving the designer a reasoned recommendation based on previously specified requirements on system's qualities. It can also help validate the suitability of chosen design patterns. We show the practical use of the framework on case study solving architectural decision for Key Word In Context.",
+"venue": "SOFSEM",
+"listofauthors": "Petr Praus, Slávka Jaromerská, T. Cerný",
+"citations": 1,
+"year": 2011,
+"publisher": "Springer Berlin Heidelberg",
+"pages": "482-493",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2011,\n\tdoi = {10.1007/978-3-642-18381-2_40},\n\turl = {https://doi.org/10.1007%2F978-3-642-18381-2_40},\n\tyear = 2011,\n\tpublisher = {Springer Berlin Heidelberg},\n\tpages = {482--493},\n\tauthor = {Petr Praus and Sl{\\'{a}}vka Jarom{\\v{e}}{\\v{r}}sk{\\'{a}} and Tom{\\'{a}}{\\v{s}} {\\v{C}}ern{\\'{y}}},\n\ttitle = {{SScAC}: Towards a Framework for Small-Scale Software Architectures Comparison}\n}",
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 109,
+"title": "PERFORMANCE OPTIMIZATION FOR ENTERPRISE WEB APPLICATIONS THROUGH REMOTE CLIENT SIMULATION",
+"doi": null,
+"description": "Contemporary enterprise web applications provide complex user interface functionality to attract users with desktop-like features. Naturally, such increasing UI complexity and user expectation results in greater application resource demands, which may degrade performance. System performance is measured by application responsiveness for end users in service delivery. Web application performance optimization occurs at all levels of the application, from server hardware, to database, etc. In this paper, we focus on the network delivery of application assets, identify bottlenecks in the service delivery, and provide suggestions for optimization. To accomplish this, we provide tools to simulate a variety of remote user communication scenarios and identify the application assets with the greatest impact on application performance. Based on the simulation results for the production application, we provide optimization options, which may be iteratively applied and simulated until the desired application performance is achieved.",
+"venue": "",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 3,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 110,
+"title": "A Tool for Evaluation and Optimization of Web Application Performance",
+"doi": null,
+"description": "One of the main goals of web application developers is to design fast systems that can respond to users in short time. Fast systems response increases user satisfaction. Although this fact is well known there does not exist many tools that could help to determine system bottlenecks for distant users. The main issue for web applications is that users come from all around the globe and the application is most of the time served in one location. We may evaluate the application in laboratory conditions, but these differ from the real ones. Network characteristics may significantly impact the true bottleneck. Many techniques are employed for performance improvements, but there is not an easy way to test the impact of the improvements for a distant user in the real environment. We propose and provide a debugging web proxy, CZProxy, that can simulate the environment for distant users. Our proxy can simulate both latency stretch and bandwidth restrictions, allowing optimization over a variety of end-user connection scenarios.",
+"venue": "",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 2,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 111,
+"title": "MetaMorPic: Self-Contained Photo Archival and Presentation",
+"doi": "10.1007/978-1-4419-9790-6_12",
+"description": "Cost associated with the maintenance and scale of custom services presents one of the most significant barriers to entry for information providers. One solution proposes pushing computation into the cloud where providers like Amazon maintain a scalable, world-wide platform for virtualization. While this avoids certain hardware maintenance costs, service providers must still maintain clusters of virtual machines. To address this, contextual services like Flickr provide a complete solution; unfortunately, this limits information providers to the available services and look-and-feel. We propose a compromise solution that combines existing services and applications. Such a solution decreases development and maintenance costs by providing standardized services with third-party maintenance, while allowing customizable functionality and look-and-feel. We present a specific example of this type of blended solution in our MetaMorPic system, which provides photo archiving and presentation capabilities using third-party software and services.",
+"venue": "ISD",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 3,
+"year": 2011,
+"publisher": "Springer New York",
+"pages": "149-158",
+"volume": null,
+"number": null,
+"bibtex": "@incollection{2011,\n\tdoi = {10.1007/978-1-4419-9790-6_12},\n\turl = {https://doi.org/10.1007%2F978-1-4419-9790-6_12},\n\tyear = 2011,\n\tpublisher = {Springer New York},\n\tpages = {149--158},\n\tauthor = {Tomas Cerny and Michael J. Donahoo},\n\ttitle = {{MetaMorPic}: Self-Contained Photo Archival and Presentation}\n}",
+"authorsSemantic": [
+1,
+2
+]
+},
+{
+"id": 112,
+"title": "FormBuilder : A Novel Approach to Deal with View Development and Maintenance ?",
+"doi": null,
+"description": "In most web applications, the attributes of entity classes directly determine the content of corresponding view forms. In addition, these entity classes often encapsulate constraints on associated properties. For example, a User entity class may have an email property with constraints on the form of the address; consequently, the view form for creating/updating users should include an email field and perform validation on the submitted data. Unfortunately, view form development is often done manually, an error-prone and tedious process. Form error detection is particularly difficult because the errors only manifest themselves at runtime because of weak type safety and limited mechanisms for constraint verification. In addition, entity modification may cause inconsistency with the corresponding form. In this paper, we propose a new tool, FormBuilder, which automates the development and maintenance of view forms. The application of this tool in production applications has repeatedly demonstrated the practical contribution of this approach.",
+"venue": "",
+"listofauthors": "T. Cerný, M. J. Donahoo",
+"citations": 4,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+},
+{
+"id": 113,
+"title": "A Profile Approach to Using UML Models for Rich Form Generation",
+"doi": "10.1109/ICISA.2010.5480315",
+"description": "The Model Driven Development (MDD) has provided a new way of engineering today's rapidly changing requirements into the implementation. However, the development of user interface (UI) part of an application has not benefit much from MDD although today's UIs are complex software components and they play an essential role in the usability of an application. As one of the most common UI examples, consider view forms that are used for collecting data from the user. View forms are usually generated with a lot of manual efforts after the implementation. For example, in case of Java 2 Enterprise Edition (Java EE) web applications, developers create all view forms manually by referring to entity beans to determine the content of forms, but such manual creation is pretty tedious and certainly very much error-prone and makes the system maintenance difficult. One promise in MDD is that we can generate code from UML models. Existing design models in MDD, however, cannot provide all class attributes that are required to generate the practical code of UI fragments. In this paper, we propose a UML profile for view form generation as an extension of the object relational mapping (ORM) profile. A profile form of hibernate validator is also introduced to implement the practical view form generation that includes an user input validation.",
+"venue": "2010 International Conference on Information Science and Applications",
+"listofauthors": "T. Cerný, Eunjee Song",
+"citations": 9,
+"year": 2010,
+"publisher": "IEEE",
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": "@inproceedings{2010,\n\tdoi = {10.1109/icisa.2010.5480315},\n\turl = {https://doi.org/10.1109%2Ficisa.2010.5480315},\n\tyear = 2010,\n\tpublisher = {{IEEE}},\n\tauthor = {Tomas Cerny and Eunjee Song},\n\ttitle = {A Profile Approach to Using {UML} Models for Rich Form Generation}\n}",
+"authorsSemantic": [
+9,
+1
+]
+},
+{
+"id": 114,
+"title": "Scheduling with Soft CLP(FD) Solver",
+"doi": null,
+"description": "The implementation of the Soft CLP(FD) solver is presented. The\nsolver can be applied to solve general problems with both hard\nand soft constraints. The representatives of the problems which\ncan be solved with the solver are presented.",
+"venue": "",
+"listofauthors": "T. Cerný, Hana Rudová",
+"citations": 0,
+"year": 0,
+"publisher": null,
+"pages": null,
+"volume": null,
+"number": null,
+"bibtex": null,
+"authorsSemantic": [
+1
+]
+}
+]

@@ -7,6 +7,8 @@ import { AdminPublicationComponent } from './admin-publication/admin-publication
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminUserComponent } from './admin-user/admin-user.component';
 import { AdminBlacklistComponent } from './admin-blacklist/admin-blacklist.component';
+import { UserPublicationComponent } from './user-publication/user-publication.component';
+import { UserBlacklistComponent } from './user-blacklist/user-blacklist.component';
 
 const routes: Routes = [
         { path: 'admin/blacklist', component: AdminBlacklistComponent },
@@ -15,6 +17,8 @@ const routes: Routes = [
         { path: 'admin/publication', component: AdminPublicationComponent },
         { path: 'admin/login', component: AdminLoginComponent },
         { path: 'admin', component: AdminComponent },
+        { path: 'user/publication/:token', component: UserPublicationComponent},
+        { path: 'user/blacklist/:token', component: UserBlacklistComponent},
         { path: '', component: MainComponent }
   ];
 

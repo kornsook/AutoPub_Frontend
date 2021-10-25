@@ -117,28 +117,19 @@
                         </td>
                         <td></td>
                       </tr>
-                      <tr>
-                        <td>Gold grain morphology and composition as an exploration tool: application to gold exploration in covered areas</td>
-                        <td>Brian K. Townley, Gerard Hérail, Victor Maksaev, Carlos Palacios, Philippe de Parseval, Fabían Sepulveda, Rodrigo Orellana, Pablo Rivas, Cesar Ulloa</td>
-                        <td>10.1144/1467-787302-042</td>
-                        <td>Geochemistry: Exploration, Environment, Analysis</td>
-                        <td>2003/2</td>
-                        <td>
-                        	<div>pablo_rivas<a href='bla'><i class="fas fa-unlock"></i></a></div>
-                        </td>
-                        <td><a href='temp'><i class="fas fa-times"></i></a></td>
-                      </tr>
-                      <tr>
-                        <td>Efficacy and safety of replacing lopinavir with atazanavir in HIV-infected patients with undetectable plasma viraemia: final results of the SLOAT trial</td>
-                        <td>Vincent Soriano, Pilar García-Gasco, Eugenia Vispo, Andrés Ruiz-Sancho, Francisco Blanco, Luz Martín-Carbonero, Sonia Rodríguez-Novoa, Judit Morello, Carmen de Mendoza, Pablo Rivas, Pablo Barreiro, Juan González-Lahoz</td>
-                        <td>10.1093/jac/dkm413</td>
-                        <td>Journal of Antimicrobial Chemotherapy</td>
-                        <td>2007/11</td>
-                        <td>
-                        	<div>pablo_rivas<a href='bla'><i class="fas fa-unlock"></i></a></div>
-                        </td>
-                        <td><a href='temp'><i class="fas fa-times"></i></a></td>
-                      </tr>
+                      <tr *ngFor="let publication of blacklist; let i = index">
+                          <td> {{ publication.title }} </td>
+                          <td> {{ publication.authors }} </td>
+                          <td> {{ publication.doi }} </td>
+                          <td> {{ publication.journal }} </td>
+                          <td> {{ publication.date }} </td>
+                          <td> 
+                            <div *ngFor = "let user of publication.users; let j = index">
+                              {{ user }} <i class="fas fa-unlock" (click) = unblock(i,j) style="cursor: pointer;"></i>
+                            </div>
+                          </td>
+                          <td><i class="fas fa-times" (click) = "remove(i)" style="cursor: pointer;"></i></td>
+                      </tr> 
                     </tbody>
                   </table>
                 </div>
