@@ -14,6 +14,19 @@ export class UserPublicationComponent implements OnInit {
 
   active_publications : Publication[] = [];
 
+  showTitle : boolean = true;
+  showAuthors : boolean = true;
+  showDoi : boolean = true;
+  showDescription : boolean = false;
+  showVenue : boolean = false;
+  showCitation : boolean = true;
+  showYear : boolean = true;
+  showPublisher : boolean = true;
+  showPages : boolean = false;
+  showVolumn : boolean = false;
+  showNumber : boolean = false;
+  showUsers : boolean = true;
+
   search_title : string = '';
   search_authors : string = '';
   search_doi : string = '';
@@ -28,19 +41,23 @@ export class UserPublicationComponent implements OnInit {
   search_users : string = '';
 
   public token: string = '';
+  public userId: number = -1;
 
   constructor(private api: ApiService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.loadScript('../assets/js/ruang-admin.min.js');    
-    this.getPublications();
+    this.loadScript('../assets/js/ruang-admin.min.js');        
     this.route.params.subscribe(paramsId => {
         this.token = paramsId.token;
+        this.userId = +paramsId.userId;
+        console.log(this.token);
+        console.log(this.userId);
+        this.getPublications(this.userId);
     });  
   }
 
-  getPublications() {
-    this.api.getCustomUserPublications().subscribe(data => {
+  getPublications(userId: number) {
+    this.api.getCustomUserPublications(userId).subscribe(data => {
       for (const d of (data as any)) {
         this.active_publications.push({
           id: d.id,
@@ -49,7 +66,7 @@ export class UserPublicationComponent implements OnInit {
           doi: d.doi,
           description: d.description,
           venue: d.venue,
-          citation: d.citation,
+          citation: d.citations,
           year: d.year,
           publisher: d.publisher,
           pages: d.pages,
@@ -65,7 +82,7 @@ export class UserPublicationComponent implements OnInit {
           doi: d.doi,
           description: d.description,
           venue: d.venue,
-          citation: d.citation,
+          citation: d.citations,
           year: d.year,
           publisher: d.publisher,
           pages: d.pages,
@@ -169,7 +186,8 @@ export class UserPublicationComponent implements OnInit {
   }
 
   block(id: number){
-
+    this.active_publications.splice(id, 1);
+    this.publications = [...this.active_publications]
   }
   public loadScript(url: string) {
     const body = <HTMLDivElement> document.body;

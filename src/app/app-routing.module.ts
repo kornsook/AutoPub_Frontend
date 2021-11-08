@@ -17,8 +17,8 @@ const routes: Routes = [
         { path: 'admin/publication', component: AdminPublicationComponent },
         { path: 'admin/login', component: AdminLoginComponent },
         { path: 'admin', component: AdminComponent },
-        { path: 'user/publication/:token', component: UserPublicationComponent},
-        { path: 'user/blacklist/:token', component: UserBlacklistComponent},
+        { path: 'user/publication/:userId/:token', component: UserPublicationComponent},
+        { path: 'user/blacklist/:userId/:token', component: UserBlacklistComponent},
         { path: '', component: MainComponent }
   ];
 

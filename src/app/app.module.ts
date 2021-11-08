@@ -18,6 +18,7 @@ import { AdminUserComponent } from './admin-user/admin-user.component';
 import { AdminBlacklistComponent } from './admin-blacklist/admin-blacklist.component';
 import { UserPublicationComponent } from './user-publication/user-publication.component';
 import { UserBlacklistComponent } from './user-blacklist/user-blacklist.component';
+import { FormsModule }   from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { UserBlacklistComponent } from './user-blacklist/user-blacklist.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

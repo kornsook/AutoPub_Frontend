@@ -12,6 +12,19 @@ export class AdminPublicationComponent implements OnInit {
 
   active_publications : Publication[] = [];
 
+  showTitle : boolean = true;
+  showAuthors : boolean = true;
+  showDoi : boolean = true;
+  showDescription : boolean = false;
+  showVenue : boolean = false;
+  showCitation : boolean = true;
+  showYear : boolean = true;
+  showPublisher : boolean = true;
+  showPages : boolean = false;
+  showVolumn : boolean = false;
+  showNumber : boolean = false;
+  showUsers : boolean = true;
+
   search_title : string = '';
   search_authors : string = '';
   search_doi : string = '';
@@ -42,7 +55,7 @@ export class AdminPublicationComponent implements OnInit {
           doi: d.doi,
           description: d.description,
           venue: d.venue,
-          citation: d.citation,
+          citation: d.citations,
           year: d.year,
           publisher: d.publisher,
           pages: d.pages,
@@ -58,7 +71,7 @@ export class AdminPublicationComponent implements OnInit {
           doi: d.doi,
           description: d.description,
           venue: d.venue,
-          citation: d.citation,
+          citation: d.citations,
           year: d.year,
           publisher: d.publisher,
           pages: d.pages,

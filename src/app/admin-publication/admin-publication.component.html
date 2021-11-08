@@ -72,7 +72,18 @@
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">Publication Management</h1>
           </div>
-
+          <input type="checkbox" [checked]="showTitle" (change)="showTitle = !showTitle" /> Title
+          <input type="checkbox" [checked]="showAuthors" (change)="showAuthors = !showAuthors" /> Authors
+          <input type="checkbox" [checked]="showDoi" (change)="showDoi = !showDoi" /> DOI
+          <input type="checkbox" [checked]="showDescription" (change)="showDescription = !showDescription" /> Description
+          <input type="checkbox" [checked]="showVenue" (change)="showVenue = !showVenue" /> Venue
+          <input type="checkbox" [checked]="showCitation" (change)="showCitation = !showCitation" /> Cite
+          <input type="checkbox" [checked]="showYear" (change)="showYear = !showYear" /> Year
+          <input type="checkbox" [checked]="showPublisher" (change)="showPublisher = !showPublisher" /> Publisher
+          <input type="checkbox" [checked]="showPages" (change)="showPages = !showPages" /> Pages
+          <input type="checkbox" [checked]="showVolumn" (change)="showVolumn = !showVolumn" /> Vol.
+          <input type="checkbox" [checked]="showNumber" (change)="showNumber = !showNumber" /> No.
+          <input type="checkbox" [checked]="showUsers" (change)="showUsers = !showUsers" /> Users
           <!-- Row -->
           <div class="row">            
             <!-- DataTable with Hover -->
@@ -85,70 +96,70 @@
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
-                        <th>Title</th>
-                        <th>Authors</th>
-                        <th>DOI</th>
-                        <th>Description</th>
-                        <th>Venue</th>
-                        <th>Cite</th>
-                        <th>Year</th>
-                        <th>Publisher</th>
-                        <th>Pages</th>
-                        <th>Vol.</th>
-                        <th>No.</th>
-                        <th>Users</th>
+                        <th *ngIf="showTitle">Title</th>
+                        <th *ngIf="showAuthors">Authors</th>
+                        <th *ngIf="showDoi">DOI</th>
+                        <th *ngIf="showDescription">Description</th>
+                        <th *ngIf="showVenue">Venue</th>
+                        <th *ngIf="showCitation">Cite</th>
+                        <th *ngIf="showYear">Year</th>
+                        <th *ngIf="showPublisher">Publisher</th>
+                        <th *ngIf="showPages">Pages</th>
+                        <th *ngIf="showVolumn">Vol.</th>
+                        <th *ngIf="showNumber">No.</th>
+                        <th *ngIf="showUsers">Users</th>
                         <th></th>
                       </tr>
                     </thead>
                     <tfoot>
                       <tr>
-                        <th>Title</th>
-                        <th>Authors</th>
-                        <th>DOI</th>
-                        <th>Description</th>
-                        <th>Venue</th>
-                        <th>Cite</th>
-                        <th>Year</th>
-                        <th>Publisher</th>
-                        <th>Pages</th>
-                        <th>Vol.</th>
-                        <th>No.</th>
-                        <th>Users</th>
+                        <th *ngIf="showTitle">Title</th>
+                        <th *ngIf="showAuthors">Authors</th>
+                        <th *ngIf="showDoi">DOI</th>
+                        <th *ngIf="showDescription">Description</th>
+                        <th *ngIf="showVenue">Venue</th>
+                        <th *ngIf="showCitation">Cite</th>
+                        <th *ngIf="showYear">Year</th>
+                        <th *ngIf="showPublisher">Publisher</th>
+                        <th *ngIf="showPages">Pages</th>
+                        <th *ngIf="showVolumn">Vol.</th>
+                        <th *ngIf="showNumber">No.</th>
+                        <th *ngIf="showUsers">Users</th>
                         <th></th>
                       </tr>
                     </tfoot>
                     <tbody>
                       <tr>
-                        <td><input type="text" name='search_title' [value] = 'search_title' (keyup)="changeSearch('title',searchtitle.value)" #searchtitle/></td>
-                        <td><input type="text" name='search_authors' [value] = 'search_authors' (keyup)="changeSearch('authors',searchauthors.value)" #searchauthors/></td>
-                        <td><input type="text" name='search_doi' [value] = 'search_doi' (keyup)="changeSearch('doi',searchdoi.value)" #searchdoi/></td>
-                        <td><input type="text" name='search_description' [value] = 'search_description' (keyup)="changeSearch('description',searchdescription.value)" #searchdescription/></td>
-                        <td><input type="text" name='search_venue' [value] = 'search_venue' (keyup)="changeSearch('venue',searchvenue.value)" #searchvenue/></td>
-                        <td><input type="text" name='search_citation' [value] = 'search_citation' (keyup)="changeSearch('citation',searchcitation.value)" #searchcitation/></td>
-                        <td><input type="text" name='search_year' [value] = 'search_year' (keyup)="changeSearch('year',searchyear.value)" #searchyear/></td>
-                        <td><input type="text" name='search_publisher' [value] = 'search_publisher' (keyup)="changeSearch('publisher',searchpublisher.value)" #searchpublisher/></td>
-                        <td><input type="text" name='search_pages' [value] = 'search_pages' (keyup)="changeSearch('pages',searchpages.value)" #searchpages/></td>
-                        <td><input type="text" name='search_volumn' [value] = 'search_volumn' (keyup)="changeSearch('volumn',searchvolumn.value)" #searchvolumn/></td>
-                        <td><input type="text" name='search_number' [value] = 'search_number' (keyup)="changeSearch('number',searchnumber.value)" #searchnumber/></td>                        
-                        <td>
+                        <td *ngIf="showTitle"><input type="text" name='search_title' [value] = 'search_title' (keyup)="changeSearch('title',searchtitle.value)" #searchtitle/></td>
+                        <td *ngIf="showAuthors"><input type="text" name='search_authors' [value] = 'search_authors' (keyup)="changeSearch('authors',searchauthors.value)" #searchauthors/></td>
+                        <td *ngIf="showDoi"> <input type="text" name='search_doi' [value] = 'search_doi' (keyup)="changeSearch('doi',searchdoi.value)" #searchdoi/></td>
+                        <td *ngIf="showDescription"><input type="text" name='search_description' [value] = 'search_description' (keyup)="changeSearch('description',searchdescription.value)" #searchdescription/></td>
+                        <td *ngIf="showVenue"> <input type="text" name='search_venue' [value] = 'search_venue' (keyup)="changeSearch('venue',searchvenue.value)" #searchvenue/></td>
+                        <td *ngIf="showCitation"><input type="text" name='search_citation' [value] = 'search_citation' (keyup)="changeSearch('citation',searchcitation.value)" #searchcitation/></td>
+                        <td *ngIf="showYear"><input type="text" name='search_year' [value] = 'search_year' (keyup)="changeSearch('year',searchyear.value)" #searchyear/></td>
+                        <td *ngIf="showPublisher"><input type="text" name='search_publisher' [value] = 'search_publisher' (keyup)="changeSearch('publisher',searchpublisher.value)" #searchpublisher/></td>
+                        <td *ngIf="showPages"><input type="text" name='search_pages' [value] = 'search_pages' (keyup)="changeSearch('pages',searchpages.value)" #searchpages/></td>
+                        <td *ngIf="showVolumn"><input type="text" name='search_volumn' [value] = 'search_volumn' (keyup)="changeSearch('volumn',searchvolumn.value)" #searchvolumn/></td>
+                        <td *ngIf="showNumber"><input type="text" name='search_number' [value] = 'search_number' (keyup)="changeSearch('number',searchnumber.value)" #searchnumber/></td>                        
+                        <td *ngIf="showUsers">
                         	<input type="text" name='search_users' [value] = 'search_users' (keyup)="changeSearch('users',searchusers.value)" #searchusers/>
                         </td>
                         <td></td>
                       </tr>
 
                       <tr *ngFor="let publication of active_publications; let i = index">
-                          <td> {{ publication.title }} </td>
-                          <td> {{ publication.authors }} </td>
-                          <td> {{ publication.doi }} </td>
-                          <td> {{ publication.description }} </td>
-                          <td> {{ publication.venue }} </td>
-                          <td> {{ publication.citation }} </td>
-                          <td> {{ publication.year }} </td>
-                          <td> {{ publication.publisher }} </td>
-                          <td> {{ publication.pages }} </td>
-                          <td> {{ publication.volumn }} </td>
-                          <td> {{ publication.number }} </td>
-                         <td> 
+                          <td *ngIf="showTitle"> {{ publication.title }} </td>
+                          <td *ngIf="showAuthors"> {{ publication.authors }} </td>
+                          <td *ngIf="showDoi"> {{ publication.doi }} </td>
+                          <td *ngIf="showDescription"> {{ publication.description }} </td>
+                          <td *ngIf="showVenue"> {{ publication.venue }} </td>
+                          <td *ngIf="showCitation"> {{ publication.citation }} </td>
+                          <td *ngIf="showYear"> {{ publication.year }} </td>
+                          <td *ngIf="showPublisher"> {{ publication.publisher }} </td>
+                          <td *ngIf="showPages"> {{ publication.pages }} </td>
+                          <td *ngIf="showVolumn"> {{ publication.volumn }} </td>
+                          <td *ngIf="showNumber"> {{ publication.number }} </td>
+                         <td *ngIf="showUsers"> 
                             <div *ngFor = "let user of publication.users; let j = index">
                               {{ user }} <i class="fas fa-ban" (click) = "block(publication.id, j)" style="cursor: pointer;"></i>
                             </div>

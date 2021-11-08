@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Publication } from './publication'
+import { User } from './user'
 
-const pubURL = 'assets/data/allPapers.json';
+const pubURL = 'http://localhost:8080/publication';
 const blackURL = 'assets/data/blacklist.json';
-const userURL = 'assets/data/people.json';
-const userPubURL = 'assets/data/cernyPapers.json';
+const userURL = 'http://localhost:8080/people';
+const cernyURL = 'http://localhost:8080/publication';
 @Injectable({
   providedIn: 'root'
 })
@@ -13,6 +14,24 @@ export class ApiService {
 
   constructor(private http: HttpClient) { 
 
+  }
+
+  getUsers() {
+    var users : User[] = [];
+    this.http.get(userURL).subscribe(data => {
+      for (const d of (data as any)) {
+        users.push({
+          id: d.id,
+          firstname: d.firstname,
+          lastname: d.lastname,
+          email: d.email,
+          source: d.source,
+          institution: d.institution,
+          url: d.url
+        });
+      }
+    });
+    return users;
   }
 
   getCustomPublications(){
@@ -29,7 +48,7 @@ export class ApiService {
           doi: d.doi,
           description: d.description,
           venue: d.venue,
-          citation: d.citation,
+          citation: d.citations,
           year: d.year,
           publisher: d.publisher,
           pages: d.pages,
@@ -43,8 +62,12 @@ export class ApiService {
     return publications;
   }
 
-  getCustomUserPublications(){
-    return this.http.get(userPubURL);
+  /*getCustomUserPublications(){
+    return this.http.get(cernyURL);
+  }*/
+
+  getCustomUserPublications(userId: number){
+    return this.http.get(pubURL + '/' + userId);
   }
 
   getCustomUserBlacklist(){
@@ -76,5 +99,14 @@ export class ApiService {
       new_arr.push(element);
     }
     return new_arr;
+  }
+
+  getIdByEmail(users: User[], email: string) {
+    for(let i = 0;i < users.length;i++) {
+      if(users[i].email == email){
+        return users[i].id;
+      }      
+    }
+    return null;
   }
 }
