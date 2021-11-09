@@ -1,0 +1,4 @@
+we can ssh to server via:
+ssh -N -f -L localhost:port:serverip:port logincredentials
+eg. 
+ssh -N -f -L localhost:8888:localhost:8888 khanal@wind.ecs.baylor.edu
