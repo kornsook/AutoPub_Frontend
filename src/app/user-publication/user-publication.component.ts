@@ -50,14 +50,12 @@ export class UserPublicationComponent implements OnInit {
     this.route.params.subscribe(paramsId => {
         this.token = paramsId.token;
         this.userId = +paramsId.userId;
-        console.log(this.token);
-        console.log(this.userId);
         this.getPublications(this.userId);
     });  
   }
 
   getPublications(userId: number) {
-    this.api.getCustomUserPublications(userId).subscribe(data => {
+    this.api.getCustomUserWhiteList(userId).subscribe(data => {
       for (const d of (data as any)) {
         this.active_publications.push({
           id: d.id,
@@ -185,8 +183,10 @@ export class UserPublicationComponent implements OnInit {
 
   }
 
-  block(id: number){
-    this.active_publications.splice(id, 1);
+  block(inx: number){
+    var pubId = this.active_publications[inx].id; 
+    this.api.block(this.userId,pubId);   
+    this.active_publications.splice(inx, 1);
     this.publications = [...this.active_publications]
   }
   public loadScript(url: string) {

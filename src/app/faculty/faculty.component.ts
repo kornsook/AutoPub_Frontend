@@ -50,19 +50,19 @@ document.addEventListener("DOMContentLoaded", function(){
         var list = "<ul>"; 
         for(let i = 0; i < publications.length;i++) {
             list += "<li>";
-            if(!publications[i].listofauthors)
+            if(publications[i].listofauthors)
                 list += publications[i].listofauthors;
-            if(!publications[i].title)
+            if(publications[i].title)
                 list += ', "' + publications[i].title + '"';
-            if(!publications[i].publisher)
+            if(publications[i].publisher)
                 list += ', ' + publications[i].publisher;
-            if(!publications[i].venue)
+            if(publications[i].venue)
                 list += ' ' + publications[i].venue;
-            if(!publications[i].number)
+            if(publications[i].number)
                 list += '.' + publications[i].number;
-            if(!publications[i].year)
+            if(publications[i].year)
                 list += ' (' + publications[i].year + ')';
-            if(!publications[i].pages)
+            if(publications[i].pages)
                 list += ': ' + publications[i].pages;
             list += "</li>";            
         }               

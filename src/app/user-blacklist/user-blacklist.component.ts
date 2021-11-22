@@ -42,19 +42,21 @@ export class UserBlacklistComponent implements OnInit {
   search_users : string = '';
   
   public token : string = '';
+  public userId : number = -1;
 
   constructor(private api: ApiService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.loadScript('../assets/js/ruang-admin.min.js');
-    this.getPublications();
+    this.loadScript('../assets/js/ruang-admin.min.js');    
     this.route.params.subscribe(paramsId => {
         this.token = paramsId.token;
+        this.userId = +paramsId.userId;
+        this.getPublications(this.userId);
     });  
   }
 
-  getPublications() {
-    this.api.getCustomUserBlacklist().subscribe(data => {
+  getPublications(userId: number) {
+    this.api.getCustomUserBlacklist(userId).subscribe(data => {
       for (const d of (data as any)) {
         this.active_publications.push({
           id: d.id,
@@ -183,8 +185,10 @@ export class UserBlacklistComponent implements OnInit {
   }
 
 
-  unblock(id: number){
-    this.active_publications.splice(id, 1);
+  unblock(inx: number){
+    var pubId = this.active_publications[inx].id;
+    this.api.unblock(this.userId, pubId)
+    this.active_publications.splice(inx, 1);
     this.publications = [...this.active_publications]
   }
   public loadScript(url: string) {

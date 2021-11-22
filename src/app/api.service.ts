@@ -4,6 +4,10 @@ import { Publication } from './publication'
 import { User } from './user'
 
 const pubURL = 'http://localhost:8080/publication';
+const pubBlockedURL = 'http://localhost:8080/publication/blocked';
+const pubWhiteURL = 'http://localhost:8080/publication/notblocked';
+const blockURL = 'http://localhost:8080/block';
+const unblockURL = 'http://localhost:8080/unblock';
 const blackURL = 'assets/data/blacklist.json';
 const userURL = 'http://localhost:8080/people';
 const cernyURL = 'http://localhost:8080/publication';
@@ -70,8 +74,20 @@ export class ApiService {
     return this.http.get(pubURL + '/' + userId);
   }
 
-  getCustomUserBlacklist(){
-    return this.http.get(blackURL);
+  getCustomUserBlacklist(userId: number){
+    return this.http.get(pubBlockedURL + '/' + userId);
+  }
+
+  getCustomUserWhiteList(userId: number){
+    return this.http.get(pubWhiteURL + '/' + userId);
+  }
+
+  block(userId: number, pubId: number) {
+    return this.http.put(blockURL + '?personid=' + userId + '&publid=' + pubId, null);
+  }
+
+  unblock(userId: number, pubId: number) {
+    return this.http.put(unblockURL + '?personid=' + userId + '&publid=' + pubId, null);
   }
 
   blockPublicationForUser(pubId: number, user_inx: number, publications: Publication[]) {
@@ -109,4 +125,6 @@ export class ApiService {
     }
     return null;
   }
+
+
 }
