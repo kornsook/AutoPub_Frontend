@@ -1,2 +1,2 @@
 Checking REST URLs
-
+"localhost:4200/user/publication/{userId}/{token}"
