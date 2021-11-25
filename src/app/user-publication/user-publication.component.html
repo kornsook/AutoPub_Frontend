@@ -132,20 +132,7 @@
                         <td></td>
                       </tr>
 
-                      <tr *ngFor="let publication of active_publications; let i = index">
-                          <td *ngIf="showTitle"> {{ publication.title }} </td>
-                          <td *ngIf="showAuthors"> {{ publication.authors }} </td>
-                          <td *ngIf="showDoi"> {{ publication.doi }} </td>
-                          <td *ngIf="showDescription"> {{ publication.description }} </td>
-                          <td *ngIf="showVenue"> {{ publication.venue }} </td>
-                          <td *ngIf="showCitation"> {{ publication.citation }} </td>
-                          <td *ngIf="showYear"> {{ publication.year }} </td>
-                          <td *ngIf="showPublisher"> {{ publication.publisher }} </td>
-                          <td *ngIf="showPages"> {{ publication.pages }} </td>
-                          <td *ngIf="showVolumn"> {{ publication.volumn }} </td>
-                          <td *ngIf="showNumber"> {{ publication.number }} </td>
-                          <td><i class="fas fa-times" (click) = "block(i)" style="cursor: pointer;"></i></td>
-                      </tr>                      
+                           
                     </tbody>
                   </table>
                 </div>
