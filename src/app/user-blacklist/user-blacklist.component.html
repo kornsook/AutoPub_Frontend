@@ -101,7 +101,20 @@
                       </tr>
                     </thead>
                     <tfoot>
-
+                      <tr>
+                        <th *ngIf="showTitle">Title</th>
+                        <th *ngIf="showAuthors">Authors</th>
+                        <th *ngIf="showDoi">DOI</th>
+                        <th *ngIf="showDescription">Description</th>
+                        <th *ngIf="showVenue">Venue</th>
+                        <th *ngIf="showCitation">Cite</th>
+                        <th *ngIf="showYear">Year</th>
+                        <th *ngIf="showPublisher">Publisher</th>
+                        <th *ngIf="showPages">Pages</th>
+                        <th *ngIf="showVolumn">Vol.</th>
+                        <th *ngIf="showNumber">No.</th>
+                        <th></th>
+                      </tr>
                     </tfoot>
                     <tbody>
                       <tr>
