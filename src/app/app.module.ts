@@ -19,6 +19,7 @@ import { AdminBlacklistComponent } from './admin-blacklist/admin-blacklist.compo
 import { UserPublicationComponent } from './user-publication/user-publication.component';
 import { UserBlacklistComponent } from './user-blacklist/user-blacklist.component';
 import { FormsModule }   from '@angular/forms';
+import { FacultyEditComponent } from './faculty-edit/faculty-edit.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FormsModule }   from '@angular/forms';
     AdminUserComponent,
     AdminBlacklistComponent,
     UserPublicationComponent,
-    UserBlacklistComponent
+    UserBlacklistComponent,
+    FacultyEditComponent
   ],
   imports: [
     BrowserModule,
