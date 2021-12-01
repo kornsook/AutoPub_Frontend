@@ -6,4 +6,5 @@ export interface User {
 	source: string;
 	institution: string;
 	url: number;
+	token: string;
 }

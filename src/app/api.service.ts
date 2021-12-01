@@ -10,7 +10,9 @@ const blockURL = 'http://localhost:8080/block';
 const unblockURL = 'http://localhost:8080/unblock';
 const blackURL = 'assets/data/blacklist.json';
 const userURL = 'http://localhost:8080/people';
+const oneUserURL = 'http://localhost:8080/person';
 const cernyURL = 'http://localhost:8080/publication';
+const google = 'http://localhost:8080/books';
 @Injectable({
   providedIn: 'root'
 })
@@ -31,11 +33,17 @@ export class ApiService {
           email: d.email,
           source: d.source,
           institution: d.institution,
-          url: d.url
+          url: d.url,
+          token: d.token
         });
       }
     });
     return users;
+  }
+  
+  getUserById(id: number) {
+    var user : User;
+    return this.http.get(oneUserURL + '?person=' + id,{observe: 'response'})
   }
 
   getCustomPublications(){
@@ -82,12 +90,12 @@ export class ApiService {
     return this.http.get(pubWhiteURL + '/' + userId);
   }
 
-  block(userId: number, pubId: number) {
-    return this.http.put(blockURL + '?personid=' + userId + '&publid=' + pubId, null);
+  block(userId: number, pubId: number, token: string) {
+    return this.http.put(blockURL + '?personid=' + userId + '&publid=' + pubId + '&token=' + token, {observe: 'response'});
   }
 
-  unblock(userId: number, pubId: number) {
-    return this.http.put(unblockURL + '?personid=' + userId + '&publid=' + pubId, null);
+  unblock(userId: number, pubId: number, token: string) {
+    return this.http.put(unblockURL + '?personid=' + userId + '&publid=' + pubId + '&token=' + token, {observe: 'response'});
   }
 
   blockPublicationForUser(pubId: number, user_inx: number, publications: Publication[]) {
@@ -125,6 +133,5 @@ export class ApiService {
     }
     return null;
   }
-
 
 }

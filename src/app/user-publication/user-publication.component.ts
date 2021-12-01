@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service'
 import { Publication } from '../publication'
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { User } from '../user'
 
 @Component({
   selector: 'app-user-publication',
@@ -42,8 +43,17 @@ export class UserPublicationComponent implements OnInit {
 
   public token: string = '';
   public userId: number = -1;
+  public user: User = {id:0, 
+                      firstname: '',
+                      lastname: '',
+                      email: '',
+                      source: '',
+                      institution: '',
+                      url: 0,
+                      token: ''
+                       };
 
-  constructor(private api: ApiService, private route: ActivatedRoute) { }
+  constructor(private api: ApiService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     this.loadScript('../assets/js/ruang-admin.min.js');        
@@ -51,7 +61,32 @@ export class UserPublicationComponent implements OnInit {
         this.token = paramsId.token;
         this.userId = +paramsId.userId;
         this.getPublications(this.userId);
-    });  
+        this.api.getUserById(this.userId).subscribe(response => {
+          if(response == null || response.body == null)
+            this.router.navigate(['']);
+          else if(response.status == 200) {
+            var strBody = JSON.stringify(response.body);
+            var jsonBody = JSON.parse(strBody)
+            this.user.id = jsonBody.id;
+            this.user.firstname = jsonBody.firstname;
+            this.user.lastname = jsonBody.lastname;
+            this.user.email = jsonBody.email;
+            this.user.source = jsonBody.source;
+            this.user.institution = jsonBody.institution;
+            this.user.url = jsonBody.url;
+            this.user.token = jsonBody.token;
+            console.log(this.user);
+            if(this.user.token != this.token) {
+              this.router.navigate(['']);
+            }
+          }
+          else
+            this.router.navigate(['']);
+        },
+        (error) => {                              //Error callback
+          this.router.navigate(['']);
+        });
+    });      
   }
 
   getPublications(userId: number) {
@@ -185,9 +220,23 @@ export class UserPublicationComponent implements OnInit {
 
   block(inx: number){
     var pubId = this.active_publications[inx].id; 
-    this.api.block(this.userId,pubId);   
-    this.active_publications.splice(inx, 1);
-    this.publications = [...this.active_publications]
+    this.api.block(this.userId,pubId,this.token).subscribe(response => {
+          if(response != null) {
+            var strRes = JSON.stringify(response);
+            var res = JSON.parse(strRes)
+            if(parseInt(res.status) == 200) {
+              this.active_publications.splice(inx, 1);
+              this.publications = [...this.active_publications];
+            }
+            else
+              alert("Your token is not correct.");
+          }
+          else
+            alert("Check your connection.");
+        },
+        (error) => {                              //Error callback
+          alert("Check your connection.")
+        });       
   }
   public loadScript(url: string) {
     const body = <HTMLDivElement> document.body;
