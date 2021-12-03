@@ -61,7 +61,7 @@ export class UserPublicationComponent implements OnInit {
         this.token = paramsId.token;
         this.userId = +paramsId.userId;
         this.getPublications(this.userId);
-        this.api.getUserById(this.userId).subscribe(response => {
+        /*this.api.getUserById(this.userId).subscribe(response => {
           if(response == null || response.body == null)
             this.router.navigate(['']);
           else if(response.status == 200) {
@@ -85,7 +85,7 @@ export class UserPublicationComponent implements OnInit {
         },
         (error) => {                              //Error callback
           this.router.navigate(['']);
-        });
+        });*/
     });      
   }
 
@@ -224,7 +224,7 @@ export class UserPublicationComponent implements OnInit {
           if(response != null) {
             var strRes = JSON.stringify(response);
             var res = JSON.parse(strRes)
-            if(parseInt(res.status) == 200) {
+            if(res.response == "blocked") {
               this.active_publications.splice(inx, 1);
               this.publications = [...this.active_publications];
             }

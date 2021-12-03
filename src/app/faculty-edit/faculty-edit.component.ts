@@ -25,12 +25,12 @@ export class FacultyEditComponent implements OnInit {
    onSubmit(f: NgForm) {
     let userId = this.api.getIdByEmail(this.users, this.email);
     if(userId) {
-      
+      this.api.sendEmail(userId);
+      alert("Please check your email's inbox.")
     }
     else {
       alert("Your email address is not in the system.")
     }
-    this.output = 'dd';
    }
 
 }

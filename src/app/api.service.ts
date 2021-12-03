@@ -13,6 +13,7 @@ const userURL = 'http://localhost:8080/people';
 const oneUserURL = 'http://localhost:8080/person';
 const cernyURL = 'http://localhost:8080/publication';
 const google = 'http://localhost:8080/books';
+const requestEmail = 'http://localhost:8080/sendEmail'
 @Injectable({
   providedIn: 'root'
 })
@@ -43,7 +44,7 @@ export class ApiService {
   
   getUserById(id: number) {
     var user : User;
-    return this.http.get(oneUserURL + '?person=' + id,{observe: 'response'})
+    return this.http.get(oneUserURL + '?personid=' + id,{observe: 'response'})
   }
 
   getCustomPublications(){
@@ -132,6 +133,10 @@ export class ApiService {
       }      
     }
     return null;
+  }
+
+  sendEmail(id: number) {
+    this.http.get(requestEmail + '/id');
   }
 
 }

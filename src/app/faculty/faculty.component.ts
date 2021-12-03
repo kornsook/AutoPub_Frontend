@@ -30,7 +30,7 @@ output: string = '';
     if(userId) {
         if(this.format == 'Javascript') {
             this.output = `<script>
-        var url = 'http://localhost:8080/publication/`+userId+`';
+        var url = 'http://localhost:8080/publication/notblocked/`+userId+`';
         //var url = 'cernyPapers.json';
         var HttpClient = function() {
             this.get = function(aUrl, aCallback) {
