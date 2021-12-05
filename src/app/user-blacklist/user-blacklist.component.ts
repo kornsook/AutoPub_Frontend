@@ -62,7 +62,7 @@ export class UserBlacklistComponent implements OnInit {
         this.token = paramsId.token;
         this.userId = +paramsId.userId;
         this.getPublications(this.userId);
-        /*this.api.getUserById(this.userId).subscribe(response => {
+        this.api.getUserById(this.userId).subscribe(response => {
           if(response == null || response.body == null)
             this.router.navigate(['']);
           else if(response.status == 200) {
@@ -86,7 +86,7 @@ export class UserBlacklistComponent implements OnInit {
         },
         (error) => {                              //Error callback
           this.router.navigate(['']);
-        });*/
+        });
     });  
   }
 
