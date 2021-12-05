@@ -136,7 +136,7 @@ export class ApiService {
   }
 
   sendEmail(id: number) {
-    this.http.get(requestEmail + '/id');
+    this.http.get(requestEmail + '/' + id);
   }
 
 }
