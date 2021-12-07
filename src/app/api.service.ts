@@ -67,7 +67,8 @@ export class ApiService {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
+          users: d.authorsSemantic,
+          link: d.link
         });
       }
     });
