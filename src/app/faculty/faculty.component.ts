@@ -67,8 +67,14 @@ output: string = '';
                     if(publications[i].pages)
                         list += ': ' + publications[i].pages;
                     list += '.'
-                    if(publications[i].bibtex)
-                        list += ' [ <span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span> ]';
+                    if(publications[i].link && publications[i].bibtex) {
+                        list += ' [ ';
+                        if(publications[i].link)
+                            list += '<a href=\"'+publications[i].link+'\">link</a>'
+                        if(publications[i].bibtex)
+                            list += ' | <span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span>';
+                        list += ' ]';
+                    }
                     list += "</li>";            
                 }               
                 list += "</ul>";

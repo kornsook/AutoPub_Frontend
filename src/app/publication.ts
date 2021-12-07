@@ -13,4 +13,5 @@ export interface Publication {
 	number: string;
 	bibtex: string;
 	users: string[];
+	link: string;
 }

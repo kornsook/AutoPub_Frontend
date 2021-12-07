@@ -76,7 +76,6 @@ export class UserPublicationComponent implements OnInit {
             this.user.institution = jsonBody.institution;
             this.user.url = jsonBody.url;
             this.user.token = jsonBody.token;
-            console.log(this.user);
             if(this.user.token != this.token) {
               this.router.navigate(['']);
             }
@@ -107,7 +106,8 @@ export class UserPublicationComponent implements OnInit {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
+          users: d.authorsSemantic,
+          link: d.link
         });
         this.publications.push({
           id: d.id,
@@ -123,7 +123,8 @@ export class UserPublicationComponent implements OnInit {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
+          users: d.authorsSemantic,
+          link: d.link
         });
       }
     });

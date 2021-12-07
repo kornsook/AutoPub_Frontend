@@ -108,7 +108,8 @@ export class UserBlacklistComponent implements OnInit {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
+          users: d.authorsSemantic,
+          link: d.link
         });
         this.publications.push({
           id: d.id,
@@ -124,7 +125,8 @@ export class UserBlacklistComponent implements OnInit {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
+          users: d.authorsSemantic,
+          link: d.link
         });
       }
     });
