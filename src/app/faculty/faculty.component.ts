@@ -68,7 +68,7 @@ output: string = '';
                         list += ': ' + publications[i].pages;
                     list += '.'
                     if(publications[i].bibtex)
-                        list += ' [<span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span>]';
+                        list += ' [ <span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span> ]';
                     list += "</li>";            
                 }               
                 list += "</ul>";
