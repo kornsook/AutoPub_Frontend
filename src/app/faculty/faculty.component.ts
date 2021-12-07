@@ -66,13 +66,7 @@ output: string = '';
                         list += ' (' + publications[i].year + ')';
                     if(publications[i].pages)
                         list += ': ' + publications[i].pages;
-                    list += '.'
-                    if(publications[i].link) {
-                        list += ' [ ';
-                        if(publications[i].link)
-                            list += '<a href=\"'+publications[i].link+'\">link</a>'                        
-                        list += ' ]';
-                    }
+                    list += '.'                    
                     list += "</li>";            
                 }               
                 list += "</ul>";
@@ -91,7 +85,12 @@ output: string = '';
     }
 
    }
-
+// if(publications[i].link) {
+//                         list += ' [ ';
+//                         if(publications[i].link)
+//                             list += '<a href=\"'+publications[i].link+'\">link</a>'                        
+//                         list += ' ]';
+//                     }
 // if(publications[i].bibtex)
 //                             list += ' | <span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span>';
 }
