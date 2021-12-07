@@ -66,6 +66,8 @@ output: string = '';
                         list += ' (' + publications[i].year + ')';
                     if(publications[i].pages)
                         list += ': ' + publications[i].pages;
+                    if(publications[i].doi)
+                        list += ' ' + "<a href=https://doi.org/" + publications[i].doi + "> link <\a>";
                     list += '.'
                     if(publications[i].bibtex)
                         list += ' [ <span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span> ]';
