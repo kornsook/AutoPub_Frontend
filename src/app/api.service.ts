@@ -11,9 +11,8 @@ const unblockURL = 'http://localhost:8080/unblock';
 const blackURL = 'assets/data/blacklist.json';
 const userURL = 'http://localhost:8080/people';
 const oneUserURL = 'http://localhost:8080/person';
-const cernyURL = 'http://localhost:8080/publication';
-const google = 'http://localhost:8080/books';
 const requestEmail = 'http://localhost:8080/sendEmail'
+const cernyURL = 'assets/data/cernyPapers.json'
 @Injectable({
   providedIn: 'root'
 })
@@ -85,10 +84,12 @@ export class ApiService {
 
   getCustomUserBlacklist(userId: number){
     return this.http.get(pubBlockedURL + '/' + userId);
+    //return this.http.get(cernyURL);
   }
 
   getCustomUserWhiteList(userId: number){
     return this.http.get(pubWhiteURL + '/' + userId);
+    //return this.http.get(cernyURL);
   }
 
   block(userId: number, pubId: number, token: string) {

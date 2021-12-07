@@ -86,17 +86,17 @@
                   <table class="table align-items-center table-flush table-hover" id="dataTableHover">
                     <thead class="thead-light">
                       <tr>
-                        <th *ngIf="showTitle">Title</th>
-                        <th *ngIf="showAuthors">Authors</th>
-                        <th *ngIf="showDoi">DOI</th>
-                        <th *ngIf="showDescription">Description</th>
-                        <th *ngIf="showVenue">Venue</th>
-                        <th *ngIf="showCitation">Cite</th>
-                        <th *ngIf="showYear">Year</th>
-                        <th *ngIf="showPublisher">Publisher</th>
-                        <th *ngIf="showPages">Pages</th>
-                        <th *ngIf="showVolumn">Vol.</th>
-                        <th *ngIf="showNumber">No.</th>
+                        <th style='cursor:pointer;' *ngIf="showTitle" (click) = "sortColumn(0)">Title</th>
+                        <th style='cursor:pointer;' *ngIf="showAuthors" (click) = "sortColumn(1)">Authors</th>
+                        <th style='cursor:pointer;' *ngIf="showDoi" (click) = "sortColumn(2)">DOI</th>
+                        <th style='cursor:pointer;' *ngIf="showDescription" (click) = "sortColumn(3)">Description</th>
+                        <th style='cursor:pointer;' *ngIf="showVenue" (click) = "sortColumn(4)">Venue</th>
+                        <th style='cursor:pointer;' *ngIf="showCitation" (click) = "sortColumn(5)">Cite</th>
+                        <th style='cursor:pointer;' *ngIf="showYear" (click) = "sortColumn(6)">Year</th>
+                        <th style='cursor:pointer;' *ngIf="showPublisher" (click) = "sortColumn(7)">Publisher</th>
+                        <th style='cursor:pointer;' *ngIf="showPages" (click) = "sortColumn(8)">Pages</th>
+                        <th style='cursor:pointer;' *ngIf="showVolumn" (click) = "sortColumn(9)">Vol.</th>
+                        <th style='cursor:pointer;' *ngIf="showNumber" (click) = "sortColumn(10)">No.</th>
                         <th></th>
                       </tr>
                     </thead>

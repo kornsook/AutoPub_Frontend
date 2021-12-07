@@ -42,6 +42,7 @@ export class UserBlacklistComponent implements OnInit {
   search_number : string = '';
   search_users : string = '';
   
+  dirSort = [1,1,1,1,1,1,1,1,1,1,1]
   public token : string = '';
   public userId : number = -1;
   public user: User = {id:0, 
@@ -250,4 +251,264 @@ export class UserBlacklistComponent implements OnInit {
     body.appendChild(script);
   }
 
+    sortColumn(inx: number){
+    this.dirSort[inx] = 1 - this.dirSort[inx]
+    if(inx == 0) {   
+      if(this.dirSort[0] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.title === b.title) {
+            return 0;
+          }
+          else {
+                return (a.title < b.title) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.title === b.title) {
+            return 0;
+          }
+          else {
+                return (a.title > b.title) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 1) {
+      if(this.dirSort[1] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.authors === b.authors) {
+            return 0;
+          }
+          else {
+                return (a.authors < b.authors) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.authors === b.authors) {
+            return 0;
+          }
+          else {
+                return (a.authors > b.authors) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 2) {
+      if(this.dirSort[2] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.doi === b.doi) {
+            return 0;
+          }
+          else {
+                return (a.doi < b.doi) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.doi === b.doi) {
+            return 0;
+          }
+          else {
+                return (a.doi > b.doi) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 3) {
+      if(this.dirSort[3] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.description === b.description) {
+            return 0;
+          }
+          else {
+                return (a.description < b.description) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.description === b.description) {
+            return 0;
+          }
+          else {
+                return (a.description > b.description) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 4) {
+      if(this.dirSort[4] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.venue === b.venue) {
+            return 0;
+          }
+          else {
+                return (a.venue < b.venue) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.venue === b.venue) {
+            return 0;
+          }
+          else {
+                return (a.venue > b.venue) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 5) {
+      if(this.dirSort[5] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.citation === b.citation) {
+            return 0;
+          }
+          else {
+                return (a.citation < b.citation) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.citation === b.citation) {
+            return 0;
+          }
+          else {
+                return (a.citation > b.citation) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 6) {
+      if(this.dirSort[6] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.year === b.year) {
+            return 0;
+          }
+          else {
+                return (a.year < b.year) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.year === b.year) {
+            return 0;
+          }
+          else {
+                return (a.year > b.year) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 7) {
+      if(this.dirSort[7] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.publisher === b.publisher) {
+            return 0;
+          }
+          else {
+                return (a.publisher < b.publisher) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.publisher === b.publisher) {
+            return 0;
+          }
+          else {
+                return (a.publisher > b.publisher) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 8) {
+      if(this.dirSort[8] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.pages === b.pages) {
+            return 0;
+          }
+          else {
+                return (a.pages < b.pages) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.pages === b.pages) {
+            return 0;
+          }
+          else {
+                return (a.pages > b.pages) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else if(inx == 9) {
+      if(this.dirSort[9] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.volumn === b.volumn) {
+            return 0;
+          }
+          else {
+                return (a.volumn < b.volumn) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.volumn === b.volumn) {
+            return 0;
+          }
+          else {
+                return (a.volumn > b.volumn) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+    else {
+      if(this.dirSort[10] == 0) {
+        this.active_publications.sort(function(a,b) {
+          if (a.number === b.number) {
+            return 0;
+          }
+          else {
+                return (a.number < b.number) ? -1 : 1;
+          }
+        });
+      }
+      else{
+        this.active_publications.sort(function(a,b) {
+          if (a.number === b.number) {
+            return 0;
+          }
+          else {
+                return (a.number > b.number) ? -1 : 1;
+          }
+        });
+      }
+      this.publications = [...this.active_publications];
+    }
+  }
+
+
 }
+
+  
