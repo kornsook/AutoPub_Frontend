@@ -67,6 +67,9 @@ output: string = '';
                     if(publications[i].pages)
                         list += ': ' + publications[i].pages;
                     list += '.'                    
+                    list += ' [ ';
+                    list += ' link | bib </a>'                        
+                    list += ' ]';                    
                     list += "</li>";            
                 }               
                 list += "</ul>";
