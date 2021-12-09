@@ -3,15 +3,16 @@ import { HttpClient } from '@angular/common/http';
 import { Publication } from './publication'
 import { User } from './user'
 
-const pubURL = 'http://localhost:8080/publication';
-const pubBlockedURL = 'http://localhost:8080/publication/blocked';
-const pubWhiteURL = 'http://localhost:8080/publication/notblocked';
-const blockURL = 'http://localhost:8080/block';
-const unblockURL = 'http://localhost:8080/unblock';
+const ip = "http://129.62.148.104:8080"
+const pubURL = ip + '/publication';
+const pubBlockedURL = ip + '/publication/blocked';
+const pubWhiteURL = ip + '/publication/notblocked';
+const blockURL = ip + '/block';
+const unblockURL = ip + '/unblock';
 const blackURL = 'assets/data/blacklist.json';
-const userURL = 'http://localhost:8080/people';
-const oneUserURL = 'http://localhost:8080/person';
-const requestEmail = 'http://localhost:8080/sendEmail'
+const userURL = ip + '/people';
+const oneUserURL = ip + '/person';
+const requestEmail = ip + '/sendEmail'
 const cernyURL = 'assets/data/cernyPapers.json'
 @Injectable({
   providedIn: 'root'

@@ -30,7 +30,8 @@ output: string = '';
     if(userId) {
         if(this.format == 'Javascript') {
             this.output = `<script>
-        var url = 'http://localhost:8080/publication/notblocked/`+userId+`';
+	var ip = 'http://129.62.148.104:8080'	    
+	var url = ip + '/publication/notblocked/`+userId+`';
         //var url = 'cernyPapers.json';
         var HttpClient = function() {
             this.get = function(aUrl, aCallback) {
@@ -71,10 +72,11 @@ output: string = '';
                         list += ' [ ';
                         if(publications[i].link)
                             list += '<a href=\"'+publications[i].link+'\">link</a>';
-                        if(publications[i].bibtex)
+			if(publications[i].bibtex) {
                             if(publications[i].link)
                                 list+= ' | '
-                            list += '<span style=\"cursor:pointer;color:blue;\" onclick=\"alert(\''+publications[i].bibtex+'\'')\">bib</span>';                      
+			list += '<span style=\"cursor:pointer;color:blue;\" onclick=\"alert(\\''+publications[i].bibtex.replace(/(\\r\\n|\\n|\\r)/gm, "")+'\\')\">bib</span>';   
+			}			
                         list += ' ]';
                     }
                     list += "</li>";            
