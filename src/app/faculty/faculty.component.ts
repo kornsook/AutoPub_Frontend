@@ -67,7 +67,6 @@ output: string = '';
                     if(publications[i].pages)
                         list += ': ' + publications[i].pages;
                     list += '.'                    
-                    list += ' [ ';
                     if(publications[i].link || publications[i].bibtex) {
                         list += ' [ ';
                         if(publications[i].link)
@@ -75,13 +74,9 @@ output: string = '';
                         if(publications[i].bibtex)
                             if(publications[i].link)
                                 list+= ' | '
-                            list += '<span style=\"cursor:pointer;color:blue;\" onclick=\"alert('+publications[i].bibtex+')\">bib</span>';                      
+                            list += '<span style=\"cursor:pointer;color:blue;\" onclick=\"alert(\''+publications[i].bibtex+'\'')\">bib</span>';                      
                         list += ' ]';
                     }
-                    if(publications[i].link)
-                        list += '<a href=\"'+publications[i].link+'\">link</a>'
-                    list += ' link | bib </a>'                        
-                    list += ' ]';                    
                     list += "</li>";            
                 }               
                 list += "</ul>";
