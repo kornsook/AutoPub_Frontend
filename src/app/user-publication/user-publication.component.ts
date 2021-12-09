@@ -106,8 +106,8 @@ export class UserPublicationComponent implements OnInit {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
-          //link: d.link
+          users: d.authorsSemantic,
+          link: d.link
         });
         this.publications.push({
           id: d.id,
@@ -123,8 +123,8 @@ export class UserPublicationComponent implements OnInit {
           volumn: d.volumn,
           number: d.number,
           bibtex: d.bibtex,
-          users: d.authorsSemantic
-          //link: d.link
+          users: d.authorsSemantic,
+          link: d.link
         });
       }
     });
