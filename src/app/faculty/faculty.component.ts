@@ -89,7 +89,7 @@ output: string = '';
         <div id='test'></div>`;
         }
         else if(this.format == 'JSON') {
-            this.output = 'http://localhost:8080/publication/' + userId;
+	this.output = 'http://129.62.148.104:8080/publication/notblocked/' + userId;
         }
     }
     else {
